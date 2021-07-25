@@ -12,8 +12,7 @@ design:
   background:
     image: ""
     image_darken: ""
-hero_media:
-#welcome.jpg
+hero_media: {{< youtube SPG_PrO0ocE >}}
 
 ---
 <br>
