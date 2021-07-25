@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 10
-title: CREDS
+title: " Centre for Research on Education in a Digital Society"
 hero_media: welcome.jpg
 widget_id: welcome
 design:
@@ -12,8 +12,8 @@ design:
 ---
 <br>
 
-The blahblahblah, 
+We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan.
 
-**and some history**
+Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.
 
-blah.
+We aim to address the broad question of how we understand the dynamic relationship between technology, society, and learning.
