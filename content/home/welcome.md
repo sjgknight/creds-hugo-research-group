@@ -12,7 +12,7 @@ design:
   background:
     image: ""
     image_darken: ""
-hero_media: <a class="twitter-timeline" href="https://twitter.com/UTS_CREDS?ref_src=twsrc%5Etfw">Tweets by UTS_CREDS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+hero_media: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SPG_PrO0ocE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #welcome.jpg
 social:
 - icon: twitter
