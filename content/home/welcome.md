@@ -10,8 +10,8 @@ design:
   css_style: null
   css_class: null
   background:
-    image: 215755_10100688921175219_1214413358_n.jpg
-    image_darken: 0.3
+    image: ""
+    image_darken: ""
 hero_media: welcome.jpg
 ---
 <br>
