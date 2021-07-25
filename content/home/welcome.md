@@ -41,3 +41,4 @@ We explore the dynamic relationship between technology and learning – across f
 
 Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.
 
+<a class="twitter-timeline" href="https://twitter.com/UTS_CREDS?ref_src=twsrc%5Etfw">Tweets by UTS_CREDS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
