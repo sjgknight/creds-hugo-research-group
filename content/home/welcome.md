@@ -1,14 +1,15 @@
 ---
 widget: hero
+widget_id: welcome
 headless: true
 weight: 10
 title: " Centre for Research on Education in a Digital Society"
-hero_media: welcome.jpg
-widget_id: welcome
+active: true
 design:
   columns: "1"
   css_style: null
   css_class: null
+hero_media: welcome.jpg
 ---
 <br>
 
