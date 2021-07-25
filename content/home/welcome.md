@@ -12,7 +12,7 @@ design:
   background:
     image: ""
     image_darken: ""
-hero_media: {{< youtube id="SPG_PrO0ocE" title="Introduction to CREDS" >}}
+hero_media:
 #welcome.jpg
 
 ---
