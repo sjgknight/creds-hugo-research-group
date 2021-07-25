@@ -23,3 +23,16 @@ home_section_odd = "#ffffff"
 home_section_even = "#b2b2b2"
 
 font = "minimal"
+
+#Colour notes
+#Our blue is 0f4beB
+#Our light grey is ebebeb
+#Our red is ff2305 
+#Our mid-grey is b2b2b2
+#Our dark-grey is 323232
+
+#And black 00000
+#White ffffff
+
+#If needed use a green 09D36A
+#and orange FF9B00
