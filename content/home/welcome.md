@@ -14,13 +14,13 @@ design:
     image_darken: ""
 hero_media: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SPG_PrO0ocE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #welcome.jpg
+  display:
+    header: true
 social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/UTS_CREDS
   label: Follow us on Twitter
-  display:
-    header: true
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society
@@ -41,5 +41,3 @@ social:
 We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan.
 
 Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.
-
-<a class="twitter-timeline" href="https://twitter.com/UTS_CREDS?ref_src=twsrc%5Etfw">Tweets by UTS_CREDS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
