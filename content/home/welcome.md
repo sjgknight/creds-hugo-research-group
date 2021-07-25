@@ -6,13 +6,13 @@ weight: 10
 title: " Centre for Research on Education in a Digital Society"
 active: true
 design:
-  columns: "1"
+  columns: "2"
   css_style: null
   css_class: null
   background:
     image: ""
     image_darken: ""
-hero_media: welcome.jpg
+#hero_media: welcome.jpg
 ---
 <br>
 
