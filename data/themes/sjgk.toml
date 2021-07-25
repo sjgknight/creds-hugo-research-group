@@ -1,0 +1,25 @@
+# Theme metadata
+name = "sjgk"
+
+# Is theme light or dark?
+is_light = true
+
+# Primary
+primary = "#b2b2b2"
+
+# Menu
+menu_primary = "#323232"
+menu_text = "#ffffff"
+menu_text_active = "#ffffff"
+menu_title = "#ffffff"
+
+# Links
+link = "#0f4beB"
+link_hover = "#0f4beB"
+link_decoration = "underline"
+
+# Home sections
+home_section_odd = "#b2b2b2"
+home_section_even = "#ebebeb"
+
+font = "minimal"
