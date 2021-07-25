@@ -14,7 +14,7 @@ design:
     image_darken: ""
 #hero_media: welcome.jpg
 social:
-#- icon: envelope
+# - icon: envelope
 #  icon_pack: fas
 #  link: '/#contact'
 - icon: twitter
@@ -23,14 +23,14 @@ social:
   label: Follow us on Twitter
   display:
     header: true
- - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society
   label: UTS Home
-#- icon: github
+# - icon: github
 #  icon_pack: fab
 #  link: https://github.com/gcushen
-#- icon: linkedin
+# - icon: linkedin
 #  icon_pack: fab
 #  link: https://www.linkedin.com/
 
