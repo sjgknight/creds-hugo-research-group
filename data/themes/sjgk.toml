@@ -8,7 +8,7 @@ is_light = true
 primary = "#b2b2b2"
 
 # Menu
-menu_primary = "#323232"
+menu_primary = "#0f4beB"
 menu_text = "#ffffff"
 menu_text_active = "#ffffff"
 menu_title = "#ffffff"
@@ -19,7 +19,7 @@ link_hover = "#0f4beB"
 link_decoration = "underline"
 
 # Home sections
-home_section_odd = "#b2b2b2"
-home_section_even = "#ebebeb"
+home_section_odd = "#ffffff"
+home_section_even = "#b2b2b2"
 
 font = "minimal"
