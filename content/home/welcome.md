@@ -16,25 +16,6 @@ hero_media: <iframe width="560" height="315" src="https://www.youtube-nocookie.c
 #welcome.jpg
   display:
     header: true
-social:
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/UTS_CREDS
-  label: Follow us on Twitter
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society
-  label: UTS Home
-#icon: github
-#icon_pack: fab
-#link: https://github.com/gcushen
-#icon: linkedin
-#icon_pack: fab
-#link: https://www.linkedin.com/
-#icon: envelope
-#icon_pack: fas
-#link: '/#contact'
-
 ---
 <br>
 
