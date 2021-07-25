@@ -19,6 +19,13 @@ main:
   - name: Publications
     url: publication
     weight: 50
-  - name: UTS Home
-    url: contact
+  - name: Twitter
+    icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/UTS_CREDS
     weight: 60
+  - name: UTS Home
+    icon: home
+    icon_pack: fa
+    url: contact
+    weight: 70
