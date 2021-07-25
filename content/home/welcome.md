@@ -12,10 +12,14 @@ design:
   background:
     image: ""
     image_darken: ""
-hero_media: {{< youtube SPG_PrO0ocE >}}
+hero_media: 
+#{{< youtube SPG_PrO0ocE >}}
+
 ---
 <br>
 
 We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan.
 
 Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.
+
+{{< youtube SPG_PrO0ocE >}}
