@@ -12,7 +12,8 @@ design:
   background:
     image: ""
     image_darken: ""
-#hero_media: welcome.jpg
+hero_media: <a class="twitter-timeline" href="https://twitter.com/UTS_CREDS?ref_src=twsrc%5Etfw">Tweets by UTS_CREDS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#welcome.jpg
 social:
 - icon: twitter
   icon_pack: fab
