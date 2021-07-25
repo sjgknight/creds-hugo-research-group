@@ -7,6 +7,9 @@ main:
   - name: News
     url: post
     weight: 20
+  - name: Projects
+    url: projects
+    weight: 25    
   - name: People
     url: people
     weight: 30
@@ -16,6 +19,6 @@ main:
   - name: Publications
     url: publication
     weight: 50
-  - name: Contact
+  - name: UTS Home
     url: contact
     weight: 60
