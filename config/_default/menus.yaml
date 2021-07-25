@@ -20,7 +20,7 @@ main:
     url: publication
     weight: 60
   - name: Twitter
-    pre: <i class='fa fab-twitter'></i> 
+    pre: <i class='fab fa-twitter'></i> 
     url: https://twitter.com/UTS_CREDS
     weight: 70
   - name: UTS Home
