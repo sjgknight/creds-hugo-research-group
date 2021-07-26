@@ -5,6 +5,9 @@ subtitle: Centre researchers take part in a conference on Empowering Learners
 date: 2021-01-17T10:14:10.752Z
 draft: true
 featured: false
+categories:
+  - news
+  - event
 image:
   filename: featured
   focal_point: Smart
