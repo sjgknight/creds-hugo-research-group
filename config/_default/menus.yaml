@@ -19,11 +19,11 @@ main:
   - name: Publications
     url: publication
     weight: 60
-  - name: Twitter
+  - name:  Twitter
     pre: <i class='fab fa-twitter'></i> 
     url: https://twitter.com/UTS_CREDS
     weight: 70
-  - name: UTS Home
+  - name:  UTS Home
     pre: <i class='fa fa-home'></i>
     url: contact
     weight: 80
