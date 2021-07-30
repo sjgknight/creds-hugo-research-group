@@ -12,7 +12,7 @@ design:
   background:
     image: ""
     image_darken: ""
-hero_media: https://www.youtube.com/watch?v=SPG_PrO0ocE
+hero_media: test.mp4 #https://www.youtube.com/watch?v=SPG_PrO0ocE
 
 ---
 <br>
