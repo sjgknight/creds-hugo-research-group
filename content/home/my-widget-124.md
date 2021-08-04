@@ -1,5 +1,5 @@
 ---
-widget: slider
+widget: 'github.sjgknight.video-slider'
 widget_id: slider-welcome
 headless: true
 weight: 100
