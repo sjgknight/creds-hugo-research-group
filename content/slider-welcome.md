@@ -16,7 +16,7 @@ design:
     image_darken: 0
 item: 
   - title: "Centre for Research on Education in a Digital Society"
-    content: ['We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan. <br> Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.', {{< youtube SPG_PrO0ocE >}}]
+    content: 'We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan. <br> Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.' {{< youtube SPG_PrO0ocE >}}
     # Choose `center`, `left`, or `right` alignment.
     align: left
     # Overlay a color or image (optional).
