@@ -12,8 +12,8 @@ design:
   background:
     image: ""
     image_darken: ""
-hero_media: {{< youtube SPG_PrO0ocE >}}
-#assets/test.mp4 #https://www.youtube.com/watch?v=SPG_PrO0ocE
+hero_media:
+# assets/test.mp4 #https://www.youtube.com/watch?v=SPG_PrO0ocE
 
 ---
 <br>
