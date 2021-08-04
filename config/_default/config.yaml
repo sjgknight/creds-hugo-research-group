@@ -26,6 +26,7 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
       # Your widget's GitHub URL (replace <USERNAME> and <WIDGET-NAME> with your GitHub username and widget name)
     - path: github.com/sjgknight/wowchemy-widget-video-slider
+    - path: github.com/sjgknight/wowchemy-widget-sk-hero
   hugoVersion:
     min: '0.84.1'
     extended: true
