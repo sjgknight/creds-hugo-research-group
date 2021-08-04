@@ -4,7 +4,7 @@ widget_id: welcome
 headless: true
 weight: 10
 title: "Centre for Research on Education in a Digital Society"
-active: true
+active: false
 design:
   columns: "2"
   css_style: null
