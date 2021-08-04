@@ -7,8 +7,8 @@ title: where's this show (main title)
 subtitle: (and subtitle)
 active: true
 height: 300px 
-interval: false 
-# set interval to true if you want it to autorotate, or set a time in ms (5000 = 5 seconds)
+interval: true 
+# set interval to true if you want it to be clickable, or set a time in ms (5000 = 5 seconds). False if you want a 1 slide slider
 design:
   columns: "2"
   background:
@@ -16,7 +16,7 @@ design:
     image_darken: 0
 item: 
   - title: "Centre for Research on Education in a Digital Society"
-    content: 'We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan. <br> Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.' {{< youtube SPG_PrO0ocE >}}
+    content: 'We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan. <br> Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.' 
     # Choose `center`, `left`, or `right` alignment.
     align: left
     # Overlay a color or image (optional).
@@ -28,15 +28,15 @@ item:
     #   Activate the button by specifying a URL and button label below.
     #   Deactivate by commenting out parameters, prefixing lines with `#`.
     cta_label: Visit our homepage 
-    cta_url: https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society
+    cta_url: 'https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society'
     cta_icon_pack: fas
     cta_icon: graduation-cap
-#  - title: Left
-#    content: ''
-#    align: right
-#    overlay_color: '#555'
+  - title: 
+    content: '{{< youtube SPG_PrO0ocE >}}'
+    align: right
+    overlay_color: '#555'
 #    overlay_img: ''
-#    overlay_filter: 0.5
+    overlay_filter: 0.5
 #  - title: Right
 #    content: 'I am right aligned 😄'
 #    align: right
