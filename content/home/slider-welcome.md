@@ -5,7 +5,7 @@ headless: true
 weight: 100
 title: where's this show (main title)
 subtitle: (and subtitle)
-active: true
+active: false
 height: 300px 
 interval: true 
 # set interval to true if you want it to be clickable, or set a time in ms (5000 = 5 seconds). False if you want a 1 slide slider
