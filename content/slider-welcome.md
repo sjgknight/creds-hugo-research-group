@@ -16,7 +16,7 @@ design:
     image_darken: 0
 item: 
   - title: "Centre for Research on Education in a Digital Society"
-    content: 'We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan. <br> Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society. {{< youtube SPG_PrO0ocE >}}'
+    content: ['We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan. <br> Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.', {{< youtube SPG_PrO0ocE >}}]
     # Choose `center`, `left`, or `right` alignment.
     align: left
     # Overlay a color or image (optional).
@@ -31,12 +31,12 @@ item:
     cta_url: https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society
     cta_icon_pack: fas
     cta_icon: graduation-cap
-  - title: Left
-    content: ''
-    align: right
-    overlay_color: '#555'
-    overlay_img: ''
-    overlay_filter: 0.5
+#  - title: Left
+#    content: ''
+#    align: right
+#    overlay_color: '#555'
+#    overlay_img: ''
+#    overlay_filter: 0.5
 #  - title: Right
 #    content: 'I am right aligned 😄'
 #    align: right
