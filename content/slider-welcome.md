@@ -31,7 +31,7 @@ item:
     cta_url: 'https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society'
     cta_icon_pack: fas
     cta_icon: graduation-cap
-  - title: 
+  - title:
     content: '{{< youtube SPG_PrO0ocE >}}'
     align: right
     overlay_color: '#555'
