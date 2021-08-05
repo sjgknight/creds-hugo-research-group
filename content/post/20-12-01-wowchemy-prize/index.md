@@ -1,4 +1,5 @@
 ---
+widget: github.sjgknight.page-backlink.html
 title: Richard Hendricks Wins First Place in the Wowchemy Prize
 date: 2020-12-01
 linkedArticles: ["different-types-of-mobile-app", "Benefits-of-native-apps-over-web-apps"]
