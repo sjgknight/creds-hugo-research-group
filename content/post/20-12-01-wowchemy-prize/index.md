@@ -1,6 +1,7 @@
 ---
 title: Richard Hendricks Wins First Place in the Wowchemy Prize
 date: 2020-12-01
+linkedArticles: ["different-types-of-mobile-app", "Benefits-of-native-apps-over-web-apps"]
 ---
 
 Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
