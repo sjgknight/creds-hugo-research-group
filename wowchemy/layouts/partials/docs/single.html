@@ -1,8 +1,6 @@
 {{- define "main" -}}
 {{ partial "docs_layout.html" . }}
-{{- end -}}
 
-{{ define "main" }}
 <article class="markdown">
   <h1>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -13,7 +11,8 @@
   </p>
   {{ partial "docs/backlinks" . }}
 </article>
-{{ end }}
+
+{{- end -}}
 
 {{ define "toc" }}
   {{ partial "docs/toc" . }}
