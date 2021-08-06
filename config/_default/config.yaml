@@ -7,7 +7,6 @@ title: CREDS # Website name
 baseurl: 'https://creds.netlify.app/' # Website URL
 copyright: '© {year} CREDS' # Footer text, e.g. '© {year} Me'
 
-enableRobotsTXT: false # Suggested, it generates a robots.txt
 googleAnalytics: "" # Optional, add tracking Id for analytics
 
 ############################
