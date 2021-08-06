@@ -33,11 +33,11 @@
             <h1>
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </h1>
-            {{ partial "docs/post-meta" . }}
+            {{ partial "post-meta" . }}
             <p>
               {{- .Content -}}
             </p>
-            {{ partial "docs/backlinks" . }}
+            {{ partial "backlinks" . }}
           </article>
 
           {{ partial "tags.html" . }}
