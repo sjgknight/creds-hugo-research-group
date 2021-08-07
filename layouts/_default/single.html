@@ -29,7 +29,7 @@
             {{ .Content }}
           </div>
 
-          <article class="markdown">
+<!--          <article class="markdown">
             <h1>
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </h1>
@@ -38,6 +38,8 @@
             </p>
             {{ partial "backlinks" . }}
           </article>
+-->
+          {{ partial "backlinks" . }}
 
           {{ partial "tags.html" . }}
 
