@@ -5,11 +5,6 @@ date: 2020-12-01
 
 Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
 
-Put some links like [A post]({{< relref "20-12-02-icml-best-paper" >}})
-
-and [like this one]({{< relref "post/empowering-learners-for-the-age-of-ai" >}})
-
-
 <!--more-->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
@@ -18,4 +13,6 @@ Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel curs
 
 Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.
 
-Put some links like [A post]({{< relref "20-12-02-icml-best-paper" >}})
+Put some links like [A post]({{< relref "20-12-02-ICML-best-paper" >}})
+
+and [like this one]({{< relref "empowering-learners-for-the-age-of-ai" >}})

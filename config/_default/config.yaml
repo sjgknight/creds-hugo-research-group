@@ -17,6 +17,7 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+disablePathToLower: false
 
 ############################
 ## MODULES

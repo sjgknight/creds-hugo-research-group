@@ -1,5 +1,5 @@
 ---
-title:
+title: "Find out more!"
 subtitle:
 widget: blank
 headless: true
@@ -8,4 +8,4 @@ design:
   columns: '1'
 ---
 
-{{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+{{% cta cta_link="./projects/" cta_text="Find out more about our work →" %}}

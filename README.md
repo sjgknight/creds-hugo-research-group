@@ -1,22 +1,23 @@
-Edits from 
+Template for group website from Wowchemy as below.
+
+I'm interested in drawing on ideas of digital gardens or link gardens, in which rather than organising by date, people navigate through starting at different points and going down different paths through connected content.  Tags and categories can do that to some degree, but it tends to always be sequential. An obvious use case in academia is wanting to show links between people <-> projects <-> publications <-> news <-> methods, etc. 
+
+To do this I made some edits from (note, if the directory structure is as mine/wowchemy and uses index.md within a named directory per-post, you need to change BaseFileName to ContentBaseName in the backlinks partial)
 
 * https://git.sehn.dev/linozen/wowchemy-hugo-modules/src/commit/b1acd15a2ef6958c2aefd806d9f7cd6f212565a7/wowchemy/layouts/partials/backlinks.html 
 
-Tried to learn from backlinks at 
+Other places that have implemented some form of backlink approach in hugo are:
 * https://github.com/kausalflow/connectome/tree/master/layouts/partials (see also https://hugo-connectome.kausalflow.com/graph/ )
 *  https://gabrielleearnshaw.medium.com/implementing-backlinks-in-a-hugo-website-e548d3d8f0e0 
 * and https://seds.nl/notes/export_org_roam_backlinks_with_gohugo/ (despite the url it isn't roam export, it's within hugo)
 * @apreshill also has an "on this page" which shows the headings for a page, which I assume could be used to show the links https://github.com/rbind/apreshill/search?q=%22on+this+page%22&type= 
-* 
-
-I'm interested in drawing on ideas of digital gardens or link gardens, in which rather than organising by date, people navigate through starting at different points and going down different paths through connected content.  Tags and categories can do that to some degree, but it tends to always be sequential. An obvious use case in academia is wanting to show links between people <-> projects <-> publications <-> news <-> methods, etc. 
 
 In Jekyll see :
 * https://digital-garden-jekyll-template.netlify.app/your-first-note
 * https://github.com/maximevaillancourt/digital-garden-jekyll-template/network/members 
 * https://manunamz.github.io/jekyll-bonsai/
 
-Roam is a common note tool for this
+Roam is a common note tool for this kind of approach
 * https://nesslabs.com/roam-research 
 
 
