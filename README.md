@@ -9,6 +9,15 @@ Tried to learn from backlinks at
 * @apreshill also has an "on this page" which shows the headings for a page, which I assume could be used to show the links https://github.com/rbind/apreshill/search?q=%22on+this+page%22&type= 
 * 
 
+I'm interested in drawing on ideas of digital gardens or link gardens, in which rather than organising by date, people navigate through starting at different points and going down different paths through connected content.  Tags and categories can do that to some degree, but it tends to always be sequential. An obvious use case in academia is wanting to show links between people <-> projects <-> publications <-> news <-> methods, etc. 
+
+In Jekyll see :
+* https://digital-garden-jekyll-template.netlify.app/your-first-note
+* https://github.com/maximevaillancourt/digital-garden-jekyll-template/network/members 
+* https://manunamz.github.io/jekyll-bonsai/
+
+Roam is a common note tool for this
+* https://nesslabs.com/roam-research 
 
 
 # Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)

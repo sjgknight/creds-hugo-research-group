@@ -1,5 +1,5 @@
 ---
-title: "   Empowering Learners for the Age of AI"
+title: "Empowering Learners for the Age of AI"
 subtitle: Centre researchers take part in a conference on Empowering Learners
   for the Age of AI
 date: 2021-01-17T10:14:10.752Z
