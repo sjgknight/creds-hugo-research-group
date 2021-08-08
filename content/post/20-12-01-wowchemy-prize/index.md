@@ -1,6 +1,7 @@
 ---
 title: Richard Hendricks Wins First Place in the Wowchemy Prize
 date: 2020-12-01
+draft: true
 ---
 
 Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
@@ -15,4 +16,4 @@ Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae s
 
 Put some links like [A post]({{< relref "20-12-02-ICML-best-paper" >}})
 
-and [like this one]({{< relref "empowering-learners-for-the-age-of-ai" >}})
+and [like this one]({{< relref "21-01-17-empowering-learners-for-the-age-of-ai" >}})

@@ -3,8 +3,8 @@ title: " Centre researchers win teaching awards"
 subtitle: "  Our congratulations to Mary Coupland who led a successful UTS Team
   Teaching award for her work with a team (including Simon Knight) on developing
   quantitative literacy and critical thinking."
-date: 2021-01-10T10:09:03.737Z
-draft: true
+date: 2021-01-10
+draft: false
 featured: false
 categories:
   - news
