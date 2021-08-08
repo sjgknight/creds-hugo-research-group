@@ -1,3 +1,16 @@
+Edits from 
+
+* https://git.sehn.dev/linozen/wowchemy-hugo-modules/src/commit/b1acd15a2ef6958c2aefd806d9f7cd6f212565a7/wowchemy/layouts/partials/backlinks.html 
+
+Tried to learn from backlinks at 
+* https://github.com/kausalflow/connectome/tree/master/layouts/partials (see also https://hugo-connectome.kausalflow.com/graph/ )
+*  https://gabrielleearnshaw.medium.com/implementing-backlinks-in-a-hugo-website-e548d3d8f0e0 
+* and https://seds.nl/notes/export_org_roam_backlinks_with_gohugo/ (despite the url it isn't roam export, it's within hugo)
+* @apreshill also has an "on this page" which shows the headings for a page, which I assume could be used to show the links https://github.com/rbind/apreshill/search?q=%22on+this+page%22&type= 
+* 
+
+
+
 # Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
 
 The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.

@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 headless: true
-weight: 20
+weight: 30
 
 title: Latest News
 subtitle:
@@ -19,6 +19,6 @@ content:
   order: desc
   page_type: post
 design:
-  view: 2
-  columns: "3"
+  view: 3
+  columns: "2"
 ---

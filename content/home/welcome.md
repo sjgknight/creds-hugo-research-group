@@ -12,8 +12,9 @@ design:
   background:
     image: ""
     image_darken: ""
-hero_media: assets/test.mp4
-#assets/test.mp4 #https://www.youtube.com/watch?v=SPG_PrO0ocE
+hero_media: 
+#assets/media/test.mp4
+#assets/test.mp4 #https://www.youtube.com/watch?v=SPG_PrO0ocE {{< youtube SPG_PrO0ocE >}}
 
 ---
 <br>
@@ -22,4 +23,3 @@ We explore the dynamic relationship between technology and learning – across f
 
 Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.
 
-{{< youtube SPG_PrO0ocE >}}

@@ -10,15 +10,15 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 20
 
-title:
-subtitle:
+title: 
+subtitle: 
 
 design:
   columns: "1"
   background:
-    image: coders.jpg
+    image: 
     image_darken: 0
     image_parallax: false
     image_position: center
@@ -26,6 +26,9 @@ design:
     text_color_light: true
   spacing:
     padding: ["20px", "0", "20px", "0"]
+  height: "200px"
 advanced:
   css_class: fullscreen
 ---
+{{< youtube id="SPG_PrO0ocE" title="Welcome  to CREDS" >}}
+

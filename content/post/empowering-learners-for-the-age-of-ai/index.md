@@ -13,7 +13,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-At the end of 2020, Centre researchers [Simon Buckingham Shum](https://www.uts.edu.au/staff/simon.buckinghamshum), [Kirsty Kitto](https://www.uts.edu.au/staff/kirsty.kitto), [Simon Knight](https://www.uts.edu.au/staff/simon.knight), and [Jane Hunter](https://www.uts.edu.au/staff/jane.hunter) took part in an Australian conference [Empowering Learners for the Age of AI](https://www.empoweringlearners.ai/), organised by a consortium of universities to engage key stakeholders with the learning challenges in an age of AI, empowering learners through AI, empowering learners to use AI, and empowering learners to question and critique AI and the systems it embeds.
+At the end of 2020, Centre researchers [Simon Buckingham Shum](https://www.uts.edu.au/staff/simon.buckinghamshum), [Kirsty Kitto](https://www.uts.edu.au/staff/kirsty.kitto), [Simon Knight](https://www.uts.edu.au/staff/simon.knight), and [Jane Hunter](https://www.uts.edu.au/staff/jane.hunter) took part in an Australian conference [Empowering Learners for the Age of AI](https://www.empoweringlearners.ai/), organised by a consortium of universities to engage key stakeholders with the learning challenges in an age of AI, empowering learners through AI, empowering learners to use AI, and empowering learners to question and critique AI and the systems it embeds.
 
 These questions are fundamental to the Centre,
 
@@ -25,10 +25,10 @@ Through these sessions, we asked:
 
 * How can data, analytics and AI be used not to disempower or automate work, but to empower learners and professionals?
 * Who needs empowering, why, and to do what, going deeper on what we mean by “empowering learners”.
-* How must  modern knowledge systems (such as schools, universities, corporate training and development, government agencies) change to prepare people for an AI society?
+* How must modern knowledge systems (such as schools, universities, corporate training and development, government agencies) change to prepare people for an AI society?
 * How to track and assess the qualities that equip people for this future?
 
-We heard from international experts including Professors Rose Luckin (University College London) and Sidney D'Mello (University of Colorado at Boulder), and from Sydney Professors Toby Walsh (at UNSW) and Judy Kay (at Sydney), as well as a range of industry and academic panelists. Each of these experts discussed aspects of the history and future of AI in education, and how we can work together to build AI futures worth having.Panel events were capped off with a panel on the AI Action Plan for Australia with  Tim Bradley (General Manager in the Federal Government's Emerging Technologies in the Digital Economy & Technology Division), and Ian Oppermann (Chief Data Scientist and CEO, NSW Data Analytics Centre), along with ed-tech company Practera's Ruth Marshall (Director of R&D and Data Integrity), and from academia, three leaders in Analytics/AI and learning science for academic and professional learning: Shane Dawson, Kirsty Kitto and Lina Markauskaite.
+We heard from international experts including Professors Rose Luckin (University College London) and Sidney D'Mello (University of Colorado at Boulder), and from Sydney Professors Toby Walsh (at UNSW) and Judy Kay (at Sydney), as well as a range of industry and academic panelists. Each of these experts discussed aspects of the history and future of AI in education, and how we can work together to build AI futures worth having.Panel events were capped off with a panel on the AI Action Plan for Australia with Tim Bradley (General Manager in the Federal Government's Emerging Technologies in the Digital Economy & Technology Division), and Ian Oppermann (Chief Data Scientist and CEO, NSW Data Analytics Centre), along with ed-tech company Practera's Ruth Marshall (Director of R&D and Data Integrity), and from academia, three leaders in Analytics/AI and learning science for academic and professional learning: Shane Dawson, Kirsty Kitto and Lina Markauskaite.
 
 **__This panel started conversations around the following questions, and we'd love to hear from you about how we can work to address these issues together:__**
 

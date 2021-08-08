@@ -3,8 +3,8 @@ widget: github.sjgknight.slider-video
 widget_id: slider-welcome
 headless: true
 weight: 100
-title: where's this show (main title)
-subtitle: (and subtitle)
+title: "where's this show (main title)"
+subtitle: "(and subtitle)"
 active: false
 height: 300px 
 interval: true 
