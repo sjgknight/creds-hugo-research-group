@@ -19,10 +19,6 @@ content:
   order: desc
   page_type: post
 design:
-<<<<<<< HEAD
   view: 3
-=======
-  view: 5
->>>>>>> 84937ef7678278ca034c6274a7801597ba6080d4
   columns: "2"
 ---
