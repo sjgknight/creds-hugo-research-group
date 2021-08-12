@@ -1,4 +1,6 @@
-Template for group website from Wowchemy as below.
+Template for group website from Wowchemy, with some minor tweaks as below.
+
+Used another great tool, wowchemy publication tool to create publication pages from bibtex; may need periodic updating (or connecting to a feed) https://github.com/wowchemy/hugo-academic-cli 
 
 I'm interested in drawing on ideas of digital gardens or link gardens, in which rather than organising by date, people navigate through starting at different points and going down different paths through connected content.  Tags and categories can do that to some degree, but it tends to always be sequential. An obvious use case in academia is wanting to show links between people <-> projects <-> publications <-> news <-> methods, etc. 
 

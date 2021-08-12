@@ -1,0 +1,373 @@
+---
+title: "Scrape members"
+output:
+  html_document:
+    df_print: paged
+---
+
+I want to scrape 
+
+I want to scrape all 4 collapsibles.
+And create a dataframe with: 
+* The parent-collapsible (member status)
+* Name (from the H4)
+* Biography (from the multiple ps, plus the li ) - keep URLs in the ps
+* UTS profile (search ahref for uts)
+* twitter (search ahref for twitter)
+* other URLs from the li
+* the image
+
+
+The script is a bit ropey...
+```{r libraries, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(rvest)
+require(stringi)
+library(httr)
+library(XML)
+
+html_text_collapse <- function(x, collapse = " ", trim = TRUE){
+  text <- html_text(html_nodes(x, xpath = ".//text()[normalize-space()]"))
+  if (trim) {
+    text <- stri_trim_both(text)
+  }
+  paste(text, collapse = collapse)
+}
+
+
+scrapelinks <- function(x){
+    # Extract the URLs
+    links <- x %>%
+        rvest::html_nodes("a") %>%
+        rvest::html_attr("href")
+    # Extract the link text
+    names <- x %>%
+        rvest::html_nodes("a") %>%
+        rvest::html_text()
+    return(tibble(name = names, link = links))
+}
+```
+
+Setting up
+```{r getting the list of members, echo=FALSE}
+url <- "https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society/meet-team"
+
+site <- read_html(url) #read it in
+
+site <- site %>% html_elements("body")
+
+divs <- site %>% html_elements("div")
+
+names <- divs %>% html_elements("h4") %>% html_text()
+
+
+#This is the divs for 4 collapsibles
+heads <- site %>% html_nodes(xpath="//*[@class='js-collapsible-2 collapsible__title disable-selection']") %>% html_text()
+heads[5] <- site %>% html_nodes(xpath="//*[@class='footer__wrapper']") %>% html_text()
+
+
+raw_site <- divs %>% as.character()
+list.members <- list()
+for (h in heads) {
+  b <- strsplit(raw_site,h,fixed=T)
+  c <- strsplit(b[[1]][1],'\n', fixed=T)
+  c <- list(c[[1]][c[[1]] != ""])
+  # add vector of member to list
+  list.members <- c(list.members, c)
+  # update text
+  raw_site <- b[[1]][2]
+}
+
+# remove first element of main list
+list.members <- list.members[2:length(list.members)]
+# add final segment of raw.text to list
+c <- strsplit(raw_site, '\n', fixed=TRUE)
+c <- list(c[[1]][c[[1]] != ""])
+list.members <- c(list.members, c)
+
+#remove the 5th element
+list.members <- list.members[1:4]
+# add names to list
+#names(list.members) <- headings
+
+#This gives me the location of each member.  I need to create a "start" (-1) and end (-2 from the next one) for each of these. I can do that by passing the list to mapply twice, and then working with that
+
+
+#Create a dataframe
+overall <- data.frame(group=character(),
+                 name=character(), 
+                 pic=character(), 
+                 bio=character(),
+                 short_bio=character(),
+                 profile=character(),
+                 twitter=character(),
+                 stringsAsFactors=FALSE) 
+```
+
+This function is what actually gets everything
+```{r function}
+
+#This function is hideous but it works
+
+extract <- function(x,y) {
+  
+  #x <- positions[4] #for testing
+  #y <- positions[5] #for testing
+  #counter <- x-5
+  
+  #add membership group
+  group <- "blank"
+    
+  #Add their name
+  name <- str_replace_all(members[x],c("<h4>" = "", "</h4>" = ""))
+  
+  #Then set the position to one back from the heading, and to 2 back from the NEXT heading
+  x <- x-1
+  
+  #Grab the picture if there is one
+  pic <- ifelse(grepl("img",members[x]),members[x],paste0("no pic"))
+  
+  #y <- ifelse(y-x < 3, y, y-2)  #This matters only if there if there is a 
+  
+  #And extract just the relevant chunk for this member
+  raw <- members[x:y]
+  
+  #Find the p bio, and grab that
+  index <- grep("<p>",raw)
+  bio <- c(raw[c(index)])
+  bio <- paste(bio, collapse="\n")
+  bio <- html_text(read_html(bio))
+  short_bio <- str_extract(bio, '.*?[a-z0-9][.?!](?= )')
+  
+  #Find the bit with the links in it
+  #ifelse(any(grepl("<ul",raw)), {
+  #index <- head(grep("<ul",raw),1) #grab the first place it occurs
+  #index_end <- length(raw)
+  #index_end <- ifelse(any(grep("</ul>",raw)<index),length(raw),tail(grep("</ul>",raw),1)) #grab the last place it occurs
+  #links <- ifelse(index_end-index>0,list(raw[index:index_end]),paste0(""))
+  #index <- grep("<a href", unlist(links))  #ifelse(length(links)>0,grep("<a href", links), "")
+  #links <- ifelse(length(index)<1, paste0(""),
+                  #read_html(toString(unlist(links)[c(index)])) %>%
+  links <- ifelse(!any(grepl("href",raw)), paste0(""), {
+      read_html(toString(unlist(raw))) %>%
+          html_nodes("a") %>%
+          html_attr("href") %>%
+          list(.)
+  })
+  
+  
+  #Find the UTS profile, href for UTS
+  index <- grep("profiles.uts.edu.au", unlist(links))
+  profile <- ifelse(length(index)<1,paste0(""),unlist(links)[index])
+  
+  #Find the twitter handle, href for twitter
+  index <- grep("twitter",unlist(links))
+  twitter <- ifelse(length(index)<1,paste0(""),unlist(links)[index])
+
+  
+  #and then return all of that...this is VERY inelegant but it should work
+  person <- as.data.frame(cbind(group,name,pic,bio,short_bio,profile,twitter))
+  person %>%
+    mutate(across(everything(), as.character))
+  
+  overall <<- rbind(overall,person)
+
+}
+
+```
+
+Ok, so let's run that on our frames...again this is an utter mess but whatever
+```{r}
+###########FOR THE MEMBERS ###########
+positions <- c(grep("(<h4>)\\w+",unlist(list.members[1])),length(unlist(list.members[1]))) #where are the H4s for this group, and what's the final position in the document (end point for last person's anchor)
+members <- unlist(list.members[1])
+map2(positions[1:length(positions)-1],positions[2:length(positions)], extract) #function to extract
+overall$group <- c(rep("Member",length(grep("(<h4>)\\w+",unlist(list.members[1]))))) #add member group for n of people in it
+
+##############HONORARIES #################
+positions <- c(grep("(<h4>)\\w+",unlist(list.members[3])),length(unlist(list.members[3]))) #where are the H4s for this group, and what's the final position in the document (end point for last person's anchor)
+members <- unlist(list.members[3])
+map2(positions[1:length(positions)-1],positions[2:length(positions)], extract) #function to extract
+overall$group <- str_replace_all(overall$group, "blank", "Honorary Associate Member")
+  
+
+############### HDRS #######################
+positions <- c(grep("(<h4>)\\w+",unlist(list.members[4])),length(unlist(list.members[4]))) #where are the H4s for this group, and what's the final position in the document (end point for last person's anchor)
+members <- unlist(list.members[4])
+map2(positions[1:length(positions)-1],positions[2:length(positions)], extract) #function to extract
+overall$group <- str_replace_all(overall$group, "blank", "Higher Degree Research Student")
+
+#############FOR ASSOCIATES ################
+positions <- c(grep("(<h4>)\\w+",unlist(list.members[2])),length(unlist(list.members[2]))) #where are the H4s for this group, and what's the final position in the document (end point for last person's anchor)
+members <- unlist(list.members[2])
+map2(positions[1:length(positions)-1],positions[2:length(positions)], extract) #function to extract
+overall$group <- str_replace_all(overall$group, "blank", "Associate Member")
+
+######## Clean up the image URLs #############
+
+overall$pic_url <- lapply(overall$pic, function(x) {
+  ifelse(grepl("no pic", x), "no pic", {
+    read_html(x) %>%
+     html_node(xpath = '//*/img') %>%
+     html_attr('src') %>%
+      str_split(., "\\?", simplify = TRUE, 1) %>%
+      paste0()    
+  })
+})
+ 
+overall$name <- gsub("</ul></section><section>","",overall$name)
+```
+
+Ok, now we're going to use that to create author directories and pages
+```{r}
+
+apply(overall,1, function(x) {
+  #x <- overall[2,] #for testing
+  
+  #This, is a negated check, so if the check passes, we get a false (and skip to end). 
+  # It checks whether in the author file index pages, the name exists. If false (true in negation) we'll create it
+  if(!any(unlist(sapply(list.files("content/authors", full.names=TRUE, recursive=TRUE, pattern="_index.md"),
+                FUN=function(y){
+                  grep(paste0(x[2]), readLines(y))
+                })))) ({
+                  #If it doesn't exist, set a location directory, and create it
+                  loc <- paste0("c:\\hugo\\sites\\creds\\content\\authors\\",gsub(" ","-",paste(x[2])))
+                  dir.create(loc)
+                  
+                  #And then add the index file
+                  file.create(paste0(loc,"\\_index.md"))
+                  
+                  #And the image file
+                  if(!grepl(x[[3]],"no pic")) {
+                  type <- str_split(httr::headers(httr::HEAD(paste0(x[[8]])))[["Content-Type"]],"/")[[1]][2]
+                  download.file(paste0(x[[8]]), paste0(loc,"\\avatar.",type), mode="wb")
+                  #download.file(paste0(x[[8]]), paste0(loc,"\\",gsub(" ","-",paste(x[2])),".",type))
+                    }
+                  
+                  has_social <- if(grepl("twitter", x[[7]])) paste0("social:\n","- icon: twitter\n  icon_pack: fab\n  link: ",x[[7]], "\n")
+                  #And then let's create the text to be written
+                  profile <- paste0("---\n",
+                                    "title: ", x[[2]], "\n\n",
+                                    "superuser: false \n\n",
+                                    "organizations:\n", "- name: UTS\n", "  url: ", x[[6]], "\n\n",
+                                    "bio: ", x[[5]], "\n\n",
+                                    has_social,
+                                    "user_groups: \n- ", x[[1]], "\n", "---", "\n",
+                                    x[[4]]
+                                    )
+
+                  cat(profile, file = paste0(loc,"\\_index.md"), append = FALSE)
+                  #and writeLines into the files using cat
+                  }) #close out the if-true. Note for an IF the structure is: if(things here) {do stuff if true} {optionally, do stuff if false}.  No commas, no if (evaluation, true, false) capture.
+} #close out the apply function
+     ) #close out the apply
+
+```
+
+
+
+# Junk notes
+```{r eval=FALSE, include=FALSE}
+
+
+
+raw_site <- site %>% html_text()
+list.members <- list()
+for (h in heads) {
+  # split on headings
+  b <- strsplit(raw_site, h, fixed=TRUE)
+  # split members using \n as separator
+  c <- strsplit(b[[1]][1], '\n', fixed=TRUE)
+  # clean empty elements from vector
+  c <- list(c[[1]][c[[1]] != ""])
+  # add vector of member to list
+  list.members <- c(list.members, c)
+  # update text
+  raw_site <- b[[1]][2]
+}
+
+
+
+
+
+#So, then, something like this with /following-sibling should help me get the stuff after it?
+site %>% 
+  html_nodes(xpath="//h3[@class='js-collapsible-2 collapsible__title disable-selection' and text()='Our members']/following-sibling::text()[1]")
+
+site %>% 
+  html_nodes(xpath="//h3[@class='js-collapsible-2 collapsible__title disable-selection' and text()='Our members']and following-sibling::div[@class = 'media_entity_embed']")
+
+  html_children() %>% 
+  html_text()
+
+batsmen <- function(x) {
+  x <- html_nodes(x, "div.cf.rankings-page div div ol li a")
+  xml_remove(html_nodes(x, "span.rank small, span[class^='pos'] em"))
+  score <- html_text(html_nodes(x, "span.rank"))
+  rank <- html_text(html_nodes(x, "span[class^='pos']"), trim = TRUE)
+  xml_remove(html_nodes(x, "span"))
+  tibble(Rank = rank, Name = html_text(x), Points = score)
+}
+
+
+#media_entity_embed
+#########AND THEN THE lists are in these. So 0 is members, 1 is associates, 2 is honorary, 3 is HDR
+#//*[@id="collapsible-0"]
+#//*[@id="collapsible-1"]
+#Each persin is then a h4 per below (with more text for the image, etc.) - we want to extract these, and structure them into individual md files
+#<div data-embed-button="media_entity_embed"
+#<h4>Simon Knight - Centre Director</h4>
+
+#These lists run until <div class="footer__wrapper">
+
+
+site %>% html_nodes(xpath = '//*[@id="collapsible-0"]')
+
+members <- site %>% 
+  html_nodes(xpath="//h3-class[contains(., 'Our members')]/following-sibling::ul")
+
+site %>% html_nodes(xpath = "//div[@class='collapsible-0']")
+
+
+
+members <- scrapelinks(members)
+members$link <- paste0("[", members$link, "](", members$link, ")")
+
+
+
+############BUNCH OF NOTE THINGS
+#This works for the first of them
+site %>% html_nodes(xpath="//h3[@class='js-collapsible-2 collapsible__title disable-selection' and text()='Our members']")
+
+displayInline <- gsub("(.*?) //h3[@class='js-collapsible-2 collapsible__title disable-selection' and text()='Our members']", site)
+Position(x = divs, f = function(x){ html_text(divs)=='Our members:'}) + 1
+gsub(pattern = '<.*?>', replacement = ' ', html_nodes(read_html(x), "div#readMoreText > p"))
+html_elements #(for the node types)
+html_name #(for named nodes)
+
+divs <- divs[20:96]
+list_divs <- xml2::as_list(divs)
+html_structure(divs)
+
+ divs %>% html_nodes(xpath="//h3[@class='js-collapsible-2 collapsible__title disable-selection':nth-child(2)") 
+############THE HEADING SHOULD LOOK LIKE THIS ###########
+#<h3 class="js-collapsible-2 collapsible__title disable-selection" aria-controls="collapsible-0" role="button" tabindex="0" aria-expanded="false">Our members</h3>
+#<h3 class="js-collapsible-2 collapsible__title disable-selection">Our members</h3>
+#/html/body/div[1]/div[3]/article/div/div/div[2]/div/main/div[3]/div/div/section[1]/h3
+#//*[@id="block-mainpagecontent"]/article/div/div/div[2]/div/main/div[3]/div/div/section[1]/h3 
+#//*[@id="block-mainpagecontent"]/article/div/div/div[2]/div/main/div[3]/div/div/section[1]/h3/text()
+#/html/body/div[1]/div[3]/article/div/div/div[2]/div/main/div[3]/div/div/section[1]/h3/text()
+# [90] "collapsible" "js-collapsible-2 collapsible__title disable-selection" "collapsible__content"  
+
+ 
+ 
+ #Get bios for names, this looks for p text preceded by name (heading)
+bios <- list()
+for (x in names) {
+  bios[x] <- divs %>% html_nodes(xpath=(paste0("//p[preceding::*[1][contains(.,'",x,"')]]"))) %>% html_text()
+}
+
+
+
+```
+

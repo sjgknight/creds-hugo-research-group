@@ -11,11 +11,11 @@ role: Senior Lecturer and Director of CREDS
 # Organizations/Affiliations
 organizations:
 - name: UTS
-  url: ""
+  url: https://profiles.uts.edu.au/simon.knight
 - name: Transdisciplinary School
 
 # Short bio (displayed in user profile at end of posts)
-bio: Simon is...
+bio: Dr Simon Knight is a senior lecturer in the Transdisciplinary School, co-editor-in-chief of the Journal of Learning Analytics, and Director of CREDS. Simon researches how people find, use, and evaluate evidence.
 
 interests:
 - Epistemic Cognition
@@ -34,9 +34,6 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: 'mailto:test@example.org'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/sjgknight
@@ -46,6 +43,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/sjgknight
+# - icon: envelope
+#   icon_pack: fas
+#   link: 'mailto:test@example.org'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,5 +63,4 @@ highlight_name: false
 user_groups:
 - Director
 ---
-
-More detail about Simon here
+Dr Simon Knight is a senior lecturer in the Transdisciplinary School, co-editor-in-chief of the Journal of Learning Analytics, and Director of CREDS. Simon researches how people find, use, and evaluate evidence. Simon has researched how people evaluate sources on socio-scientific topics, such as climate change, impacts of technology, and nutrition topics, seen through the lens of epistemic cognition. Simon is particularly interested in how educators use and evaluate evidence, including their use of learning analytics ? the use of data from learning activity, to understand and support that learning. 

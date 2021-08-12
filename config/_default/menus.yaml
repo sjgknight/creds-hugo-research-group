@@ -8,7 +8,7 @@ main:
     url: post
     weight: 20
   - name: Our Research
-    url: projects
+    url: project
     weight: 30
     identifier: "us"
   - name: People
@@ -16,15 +16,15 @@ main:
     parent: "us"
     identifier: "people"
   - name: Publications
-    url: publications
+    url: publication
     parent: "us"
     identifier: "publications"
   - name: Events
-    url: events
+    url: event
     parent: "us"
     identifier: "events"   
   - name: Projects
-    url: projects
+    url: project
     parent: "us"
     identifier: "projects"
     weight: 1
