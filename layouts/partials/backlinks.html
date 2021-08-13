@@ -13,7 +13,7 @@
     <div class="backlinks">
       <ul>
        {{ range $backlinks }}
-          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          <li><a href="{{ .RelPermalink }}">{{ .Type | title }}: {{ .Title }}</a></li>
        {{ end }}
      </ul>
     </div>

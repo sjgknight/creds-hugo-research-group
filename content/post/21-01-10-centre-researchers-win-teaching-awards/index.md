@@ -1,19 +1,23 @@
 ---
-title: " Centre researchers win teaching awards"
-subtitle: "  Our congratulations to Mary Coupland who led a successful UTS Team
+title: "Centre researchers win teaching awards"
+subtitle: "Our congratulations to Mary Coupland who led a successful UTS Team
   Teaching award for her work with a team (including Simon Knight) on developing
   quantitative literacy and critical thinking."
 date: 2021-01-10
 draft: false
 featured: false
+authors: ["Mary Coupland"]
 categories:
   - news
   - honours
 image:
-  filename: featured
+  filename: learning-and-teaching-awards-2020.png
   focal_point: Smart
   preview_only: false
 ---
+
+Our congratulations to [Mary Coupland]({{< relref "/authors/Mary-Coupland" >}}) who led a successful UTS Team Teaching award for her work with a team (including [Simon Knight]({{< relref "/authors/Simon-Knight" >}})) on developing quantitative literacy and critical thinking.
+  
 ![Screenshot image of award winners](learning-and-teaching-awards-2020.png)
 
 The award reflects five years of development of an undergraduate cross-faculty elective subject ‘Arguments, Evidence, and Intuition’. The subject aims to address issues such as how we support students to critique data in the news, identify poor use or absence of data in political decisions, and think about how data might inform their own personal, professional, and civic decision making. It is taught by a range of academics across UTS faculties, similarly supporting students across faculties to develop these critical capacities for their professional development, recognising the need for people across professions to work effectively with data.
