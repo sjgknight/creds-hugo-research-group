@@ -5,7 +5,7 @@ name = "sjgk"
 is_light = true
 
 # Primary
-primary = "#b2b2b2"
+primary = "#f5f4f5"
 
 # Menu
 menu_primary = "#0f4beB"
@@ -20,7 +20,7 @@ link_decoration = "underline"
 
 # Home sections
 home_section_odd = "#ffffff"
-home_section_even = "#b2b2b2"
+home_section_even = "#f5f4f5"
 
 font = "minimal"
 
@@ -36,3 +36,24 @@ font = "minimal"
 
 #If needed use a green 09D36A
 #and orange FF9B00
+
+
+#color(white) uses the color: #fff
+#color(rich black) uses the color: #000
+#color(black) uses the color: #323232
+#color(blue) uses the color: #0f4beb
+#color(rich blue) uses the color: #0d41d1
+#color(red) uses the color: #ff2305
+#color(dark grey) uses the color: #767676
+#color(gun metal grey) uses the color: #707070
+#color(darker grey) uses the color: #595959
+#color(grey) uses the color: #b2b2b2
+#color(light grey) uses the color: #ebebeb
+#color(medium grey) uses the color: #7a7a7a
+#color(mid-light grey) uses the color: #ccc
+#color(extra-light grey) uses the color: #ddd
+#color(super-light grey) uses the color: #f5f4f5
+#color(ultra-light grey) uses the color: #f1f1f1
+#color(green) uses the color: #32cd32
+#color(orange) uses the color: #f09d38
+#color(off white) uses the color: #fcfcfb

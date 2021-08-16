@@ -1,5 +1,5 @@
 ---
-title: Honours
+title: Recognition
 cms_exclude: true
 
 # View.

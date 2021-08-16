@@ -1,0 +1,4 @@
+---
+aliases:
+    - /authors/Mary-Coupland/
+---

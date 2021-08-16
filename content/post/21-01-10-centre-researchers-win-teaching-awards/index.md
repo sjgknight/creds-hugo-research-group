@@ -6,10 +6,10 @@ subtitle: "Our congratulations to Mary Coupland who led a successful UTS Team
 date: 2021-01-10
 draft: false
 featured: false
-authors: ["Mary Coupland"]
+authors: ["Mary Coupland", "Simon Knight"]
 categories:
   - news
-  - honours
+  - recognition
 image:
   filename: learning-and-teaching-awards-2020.png
   focal_point: Smart

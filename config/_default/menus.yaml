@@ -24,7 +24,7 @@ main:
     parent: "us"
     identifier: "events"   
   - name: Projects
-    url: project
+    url: research
     parent: "us"
     identifier: "projects"
     weight: 1
@@ -34,9 +34,13 @@ main:
     weight: 70
   - name:  UTS Home
     pre: <i class='fa fa-home'></i>
-    url: contact
+    url: https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society
     weight: 80
     
+# research:
+#   - name: Research
+#     url: research#Understanding digital learning in a digital society
+#     weight: 20
 #####################################
  # - name: Projects
  #    url: project
