@@ -8,7 +8,13 @@ image:
   filename: featured
   focal_point: Smart
   preview_only: false
-#page_type: project
+
+links:
+  - icon_pack: fas
+    icon: arrow-alt-circle-left
+    name: View all our research
+    url: '/research'
+
 authors: ["Simon Knight","Simon Buckingham Shum","Shibani Antonette","Sophie Abel"]
 tags: 
   - Change-Design
@@ -16,3 +22,4 @@ tags:
 ---
 
 http://acawriter.uts.edu.au/'
+

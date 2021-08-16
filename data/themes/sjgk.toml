@@ -5,11 +5,11 @@ name = "sjgk"
 is_light = true
 
 # Primary
-primary = "#f5f4f5"
+primary = "#707070"
 
 # Menu
-menu_primary = "#0f4beB"
-menu_text = "#ffffff"
+menu_primary = "#0f4beB"  #bold blue
+menu_text = "#ffffff" #white
 menu_text_active = "#ffffff"
 menu_title = "#ffffff"
 
@@ -23,6 +23,12 @@ home_section_odd = "#ffffff"
 home_section_even = "#f5f4f5"
 
 font = "minimal"
+
+# ATtempt to change link button targeting the class. Fixing 'primary' above addressed it
+#btn-outline-primary = "ff2305"
+#btn-links.mb-3 = "ff2305"
+#btn.btn-links = "#ff2305"
+#btn-outline-primary = "#ff2305"
 
 #Colour notes
 #Our blue is 0f4beB

@@ -8,5 +8,5 @@ design:
   columns: '1'
 ---
 
-{{% cta cta_link="./projects/" cta_text="Find out more about our work →" %}}
+{{% cta cta_link="./research/" cta_text="Find out more about our work →" %}}
 {{% cta cta_link="https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society" cta_text="Visit our homepage →" %}}
