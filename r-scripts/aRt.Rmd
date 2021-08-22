@@ -12,7 +12,7 @@ https://generative.substack.com/p/generative-art-and-r
 #devtools::install_github("cutterkom/generativeart")
 #install.packages("flametree")
 #devtools::install_github("thomasp85/ambient")
-devtools::install_github("djnavarro/jasmines")
+#devtools::install_github("djnavarro/jasmines")
 #devtools::install_github("marcusvolz/mathart")
 
 library(aRtsy)
@@ -20,12 +20,84 @@ library(generativeart)
 library(flametree)
 library(jasmines)
 library(mathart)
+```
 
+From jasmines package
+```{r}
+use_seed(1) %>%
+  entity_circle(grain = 1000) %>%
+  unfold_tempest(iterations = 10) %>%
+  style_ribbon(background = "wheat")
 
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+```{r}
+flametree_grow(seed = 2, trees = 3) %>% 
+  flametree_plot(style = "voronoi")
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+flametree_grow(seed = 84, trees = 8) %>% 
+  flametree_plot(style = "voronoi")
+
+```
+from aRtsy (probably nicest easy use)
+```{r}
+canvas_collatz(colors = '#ff2305', background = '#b2b2b2', n = 40, 
+               angle.even = 0.0075, angle.odd = 0.0145, side = TRUE)
+
+set.seed(18)
+canvas_segments(colors = colorPalette('dark1'), background = '#f09d38', n = 1000, p = 0.5, H = 0.1)
+
+#the below is red, green, orange, grey, green.  fcfcfb is off quite
+pal <- jasmines::palette_manual('#ff2305','#32cd32','#f09d38','#b2b2b2','#09D36A')
+#color(blue) uses the color: #0f4beb
+#color(rich blue) uses the color: #0d41d1
+
+set.seed(18)
+canvas_segments(colors = c('#ff2305','#32cd32','#f09d38','#b2b2b2','#0f4beb','#0d41d1'), background = '#fcfcfb', n = 1000, p = 0.5, H = 0.1)
+
+
+
+canvas_squares(colors = c('#ff2305','#32cd32','#f09d38','#b2b2b2','#0f4beb','#0d41d1'),
+
+               
+set.seed(6)
+
+canvas_squares(colors = c('#ff2305','#b2b2b2','#0f4beb'),
+               cuts = 100, ratio = 1.1, width = 100, height = 100)
+```
+
+#Colour notes
+#Our blue is 0f4beB
+#Our light grey is ebebeb
+#Our red is ff2305 
+#Our mid-grey is b2b2b2
+#Our dark-grey is 323232
+
+#And black 00000
+#White ffffff
+
+#If needed use a green 09D36A
+#and orange FF9B00
+
+
+#color(white) uses the color: #fff
+#color(rich black) uses the color: #000
+#color(black) uses the color: #323232
+#color(blue) uses the color: #0f4beb
+#color(rich blue) uses the color: #0d41d1
+#color(red) uses the color: #ff2305
+#color(dark grey) uses the color: #767676
+#color(gun metal grey) uses the color: #707070
+#color(darker grey) uses the color: #595959
+#color(grey) uses the color: #b2b2b2
+#color(light grey) uses the color: #ebebeb
+#color(medium grey) uses the color: #7a7a7a
+#color(mid-light grey) uses the color: #ccc
+#color(extra-light grey) uses the color: #ddd
+#color(super-light grey) uses the color: #f5f4f5
+#color(ultra-light grey) uses the color: #f1f1f1
+#color(green) uses the color: #32cd32
+#color(orange) uses the color: #f09d38
+#color(off white) uses the color: #fcfcfb
+
