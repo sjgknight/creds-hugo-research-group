@@ -10,10 +10,7 @@ headless: true
 weight: 20
 
 title: Theme Projects
-subtitle: 'This strand of work is about our approaches to understanding learning needs and addressing these through technologies. <br> <h4>Modelling changing learning needs</h4> <br>
-Our research models what our learning needs around technology and data are in the context of the changing nature of work and society. We do this through data informed approaches, and close qualitative analyses of professional practices.
-<h4>The Design of Technologies to Support and Understand Learning</h4><br>
-In this area of research, centre members have developed technologies including learning analytics tools to understand student learning, and support student reflection on their learning.'
+subtitle: 'This strand of work is about our approaches to understanding learning needs and addressing these through technologies.'
 
 design:
   background:
@@ -77,10 +74,6 @@ design:
 ---
 
 ## Understanding digital learning in a digital society [{{< icon name="link" pack="fas" >}}](.#Change) [{{< icon name="level-up-alt" pack="fas" >}}](.) {#Change}
-<br>
-
-<!--
-[//]: # (This strand of work is about our approaches to understanding learning needs and addressing these through technologies.
 
 {{< spoiler text="Click to read more" >}}
 
@@ -92,7 +85,4 @@ Our research models what our learning needs around technology and data are in th
 
 In this area of research, centre members have developed technologies including learning analytics tools to understand student learning, and support student reflection on their learning. 
 
-{{< /spoiler >}})
-
--->
-
+{{< /spoiler >}}

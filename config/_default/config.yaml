@@ -28,11 +28,7 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
       # Your widget's GitHub URL (replace <USERNAME> and <WIDGET-NAME> with your GitHub username and widget name)
- #   - path: github.com/sjgknight/wowchemy-widget-slider-video
-    - path: github.com/sjgknight/wowchemy-widget-sk-hero
-    #- path: github.com/google/docsy/tree/master/layouts/shortcodes
-    #- path: github.com/google/docsy/tree/master/layouts/partials 
-#    - path: github.com/sjgknight/hugo-connectome-theme-demo
+
   hugoVersion:
     min: '0.84.1'
     extended: true
@@ -47,7 +43,7 @@ paginate: 10
 enableEmoji: true
 enableRobotsTXT: false
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.R$, \.Rmarkdown$, _cache$]
 permalinks:
   authors: '/author/:slug/'
   tags: '/tag/:slug/'

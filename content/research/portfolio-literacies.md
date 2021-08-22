@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Projects
-subtitle: ''
+title: Theme Projects
+subtitle: 'This strand of work is about the ways that technology introduces new challenges and needs in digital literacy from tackling misinformation to understanding how algorithms shape our social media; and that technologies may be used to support these literacies'
 
 design:
   background:
@@ -74,8 +74,6 @@ design:
 ---
 
 ## Digital learning for digital literacies [{{< icon name="link" pack="fas" >}}](.#Literacies) [{{< icon name="level-up-alt" pack="fas" >}}](.) {#Literacies} 
-
-This strand of work is about the ways that technology introduces new challenges and needs in digital literacy from tackling misinformation to understanding how algorithms shape our social media; and that technologies may be used to support these literacies
 
 {{< spoiler text="Click to read more" >}}
 

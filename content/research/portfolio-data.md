@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Projects
-subtitle: ''
+title: Theme Projects
+subtitle: 'That there is an impetus for us to learn new technologies and approaches to data that help us understand our world for a sustainable future,  and that there are new tools to support us in this, including simulations and extended reality to develop our data literacy'
 
 design:
   background:
@@ -74,8 +74,6 @@ design:
 ---
 
 ## Our datafied world and tools to understand it [{{< icon name="link" pack="fas" >}}](.#Data) [{{< icon name="level-up-alt" pack="fas" >}}](.) {#Data}
-
-That there is an impetus for us to learn new technologies and approaches to data that help us understand our world for a sustainable future,  and that there are new tools to support us in this, including simulations and extended reality to develop our data literacy
 
 {{< spoiler text="Click to read more" >}}
 

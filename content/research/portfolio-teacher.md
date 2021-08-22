@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: Projects
-subtitle: ''
+title: Theme Projects
+subtitle: 'Research in this strand recognises that teachers play a central role in learning in society, and that their own learning needs have been impacted by digital tools, but that digital tools also offer opportunities to support teacher learning.'
 
 design:
   background:
@@ -74,8 +74,6 @@ design:
 ---
 
 ## The digital teacher [{{< icon name="link" pack="fas" >}}](.#Teacher) [{{< icon name="level-up-alt" pack="fas" >}}](.) {#Teacher}
-
-Research in this strand recognises that teachers play a central role in learning in society, and that their own learning needs have been impacted by digital tools, but that digital tools also offer opportunities to support teacher learning.
 
 {{< spoiler text="Click to read more" >}}
 
