@@ -12,13 +12,30 @@
     <h4>Links to here </h4>
     <div class="backlinks">
       <ul>
-       {{ range $backlinks }}
-          <li><a href="{{ .RelPermalink }}">{{ .Type | title }}: {{ .Title }}</a></li>
-       {{ end }}
-     </ul>
+        {{ range (where $backlinks "Section" "post" ) }}
+        <h3> Recent News </h3>
+            <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }}
+        {{ range (where $backlinks "Section" "project" ) }}
+         <br>
+        <h3> Projects </h3>
+            <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }}
+         {{ range (where $backlinks "Section" "methods" ) }}
+                   <br>
+          <h3> Methods </h3>
+         <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }}
+         <br>
+          <h3> Recent Publications </h3>
+         {{ range (first 10 (where $backlinks "Section" "publication" )) }}
+         <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }}
+
+      </ul>
     </div>
   </div>
-{{ else  }}
+{{ else }}
   <div class="bl-section">
     <h4>Nothing links to here</h4>
   </div>

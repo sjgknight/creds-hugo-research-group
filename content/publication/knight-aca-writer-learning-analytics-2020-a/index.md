@@ -9,4 +9,3 @@ featured: false
 publication: "*Journal of Writing Research*"
 doi: "10.17239/jowr-2020.12.01.06"
 ---
-
