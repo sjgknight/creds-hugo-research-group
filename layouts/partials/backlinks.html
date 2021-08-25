@@ -26,6 +26,11 @@
           <h3> Methods </h3>
          <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
          {{ end }}
+        {{ range (where $backlinks "Section" "teaching" ) }}
+         <br>
+        <h3> Teaching </h3>
+            <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }}
          <br>
           <h3> Recent Publications </h3>
          {{ range (first 10 (where $backlinks "Section" "publication" )) }}
