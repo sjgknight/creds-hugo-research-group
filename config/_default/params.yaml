@@ -125,9 +125,9 @@ marketing:
 cms:
   branch: build
   local_backend: false
-cms:
-  branch: main
-  local_backend: false
+# cms:
+#   branch: main
+#   local_backend: false
 icon:
   pack:
     ai: true
