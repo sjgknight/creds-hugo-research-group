@@ -4,7 +4,7 @@
 widget: blank
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # This file represents a page section.
 headless: true
@@ -30,5 +30,5 @@ design:
 advanced:
   css_class: fullscreen
 ---
-{{< youtube id="SPG_PrO0ocE" title="Welcome  to CREDS" >}}
 
+<div style="max-width: 100%; width: 50%; height: auto;">{{< youtube id="SPG_PrO0ocE" title="Welcome  to CREDS" >}} </div>

@@ -5,7 +5,7 @@
 
 title: CREDS # Website name
 baseurl: 'https://creds.netlify.app/' # Website URL
-copyright: '© {year} CREDS' # Footer text, e.g. '© {year} Me'
+copyright: '© {year} CREDS <br>CREDS members acknowledge the Gadigal people of the Eora Nation, upon whose ancestral lands our university stands. We would also like to pay respect to the Elders both past and present, acknowledging them as the traditional custodians of knowledge for these lands.' # Footer text, e.g. '© {year} Me'
 
 googleAnalytics: "" # Optional, add tracking Id for analytics
 
@@ -28,9 +28,7 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
       # Your widget's GitHub URL (replace <USERNAME> and <WIDGET-NAME> with your GitHub username and widget name)
- #   - path: github.com/sjgknight/wowchemy-widget-slider-video
-    - path: github.com/sjgknight/wowchemy-widget-sk-hero
-#    - path: github.com/sjgknight/hugo-connectome-theme-demo
+
   hugoVersion:
     min: '0.84.1'
     extended: true
@@ -43,9 +41,9 @@ enableGitInfo: false
 summaryLength: 30
 paginate: 10
 enableEmoji: true
-enableRobotsTXT: true
+enableRobotsTXT: false
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.R$, \.Rmarkdown$, _cache$]
 permalinks:
   authors: '/author/:slug/'
   tags: '/tag/:slug/'

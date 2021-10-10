@@ -1,0 +1,93 @@
+---
+title: "Scrape members"
+output:
+  html_document:
+    df_print: paged
+---
+
+I want to scrape 
+
+I want to replace known names with consistent full names
+
+```{r libraries, warning=FALSE, include=FALSE}
+library(tidyverse)
+#library(bibtex)
+library(bib2df)
+#cites <- read.bib("../PopCites.bib")
+#cites <- bib2df("../PopCites.bib")
+cites <- read_lines("../PopCites.bib")
+
+#May be better to use stringi::stri_replace_all_fixed()
+#Or, possibly in str_replace_all you can use c(fixed("Knight, S") = "Knight, Simon), (fixed(nextone... etc.
+
+init <- cites
+
+init <- cites %>%
+  #mutate(AUTHOR = 
+  #str_to_title %>%
+  #str_c(collapse = "---") %>%
+  str_replace_all( 
+                  c("Mustikasari, RDW|Mustikasari, DW" = "Mustikasari, Dewi Wahyu",
+                    "Knight, S" = "Knight, Simon",
+                    "Shum, SJB|Shum, SB|Shum, \\{S Buckingham\\}|Shum, S|\\{Buckingham Shum\\}, \\{Simon Buckingham\\}|\\{Buckingham Shum\\}, SJ|\\{Buckingham Shum\\}, S B|\\{Buckingham Shum\\}, S|\\{Buckingham\\-Shum\\}, S |\\{Buckingham\\-Shum\\}, S\\}" = "\\{Buckingham Shum\\}, Simon",
+                    "Kitto, KJ|Kitto, K" = "Kitto, Kirsty",
+                    "Coupland, MP|Coupland, M" = "Coupland, Mary",
+                    "Kearney, M" = "Kearney, Matthew",
+                    "Maher, D" = "Maher, Damian",
+                    "Hunter, J" = "Hunter, Jane",
+                    "Heggart, K" = "Heggart, Keith",
+                    "Johns, A" = "Johns, Amelia",
+                    "Lakshminarayanan, B|Narayan, B" = "Narayan, Bhuva",
+                    "\\{Dickson-Deane\\}, C" = "\\{Dickson-Deane\\}, Camille",
+                    "Thompson, D" = "Thompson, Darrall",
+                    "Kozanoglu, DC|Kozanoglu, D|Cetindamar, D|Cetindamar, DK|\\{Cetindamar Kozanoglu\\}, D" = "\\{Cetindamar Kozanoglu\\}, Dilek",
+                    "Ford, H" = "Ford, Heather",
+                    "Knussen, L" = "Knussen, Lauren",
+                    "Palmer, TA" = "Palmer, Tracey-Ann",
+                    "Prescott, AE|Prescott, A" = "Prescott, Anne",
+                    "Buchanan, JD|Buchanan, J" = "Buchanan, John",
+                    "Aubusson, P" = "Aubusson, Peter",
+                    "\\{Pressick-Kilborn\\}, K" = "\\{Pressick-Kilborn\\}, Kimberley",
+                    "Lockyer, L" = "Lockyer, Lori",
+                    "Schuck, SR|Schuck, Sandy|Schuck, S" = "Schuck, Sandra",
+                    "Tregenza, B" = "Tregenza, Bronwyn"))
+  
+init <- init %>%
+           str_replace_all(
+                           c("\\{Buckingham Shum\\}, Simon Buckingham" = "\\{Buckingham Shum\\}, Simon"))
+
+
+write_lines(init, "../cites_2.bib")
+
+#write.bib(cites, "../cites.bib")
+#df2bib(init, "../cites.bib")
+
+# init <- init %>%
+#   mutate(EDITOR =
+#            str_replace_all(EDITOR,
+#                            c("\\{Buckingham Shum\\}, Simon Buckingham" = "\\{Buckingham Shum\\}, Simon")))
+
+
+init %>% filter(grepl("shumCohereWebArgumentation2008",BIBTEXKEY)) %>% select(AUTHOR) %>% unlist
+
+#hugo_cmd:: should let me run academic import --bibtex cites.bib
+```
+
+May need some post-cleaning, especially for SBS...
+In the files post cli, also need to check for escaped quotes (seems to be particularly associated with letters with any maks on)
+```{r}
+
+stringr::str_detect("a\"b", fixed("\""))
+
+fileNames <- list.files(path = "c:/Hugo/Sites/creds/content/publication/", pattern = "\\.md", full.names = T, recursive = T, ignore.case = T, include.dirs = T)
+
+for (fileName in fileNames) {
+   if (length(stringr::str_which(readLines(fileName), fixed("\\\\\""))) > 0) { print(fileName)}
+}
+
+for (fileName in fileNames) {
+   if (length(stringr::str_which(readLines(fileName), fixed("Coupland-M"))) > 0) { print(fileName)}
+}
+
+```
+

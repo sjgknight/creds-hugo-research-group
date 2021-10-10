@@ -4,7 +4,7 @@ widget: pages
 headless: true
 weight: 30
 
-title: Latest News
+title: Latest CREDS News
 subtitle:
 
 content:
@@ -19,6 +19,6 @@ content:
   order: desc
   page_type: post
 design:
-  view: 3
+  view: 2
   columns: "2"
 ---

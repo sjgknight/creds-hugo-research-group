@@ -1,0 +1,32 @@
+---
+
+---
+
+<p>Higher education around the world is facing the significant challenge of providing excellent teaching in response to complex, shifting pressures. Institutions must adapt to changing student populations, rising societal expectations and technological advances. Goodyear argues for design-led change that builds ‘innovative repertoires of educational approaches’ (2015: 37). However, to make a positive difference successful innovation must be sustainable, and this requires both reach and longevity.</p>
+<p>In our recent paper, we argue that building design capacity in our higher education teachers is key to improving education through sustainable innovation (<a href="https://onlinelibrary.wiley.com/doi/10.1111/bjet.12683" target="_blank" rel="noopener">Bennett et al 2018</a>)*. In terms of sustainability, investing in teaching staff makes sense. They are key agents of change in the higher education workforce, being directly engaged with students across all disciplines. Building their capacity offers a strategy to foster institutional and sector-wide change, and developing teachers’ design knowledge and skills over the long term seeks to effect lasting change.</p>
+<p>Our challenge is that although design work is routine for teachers, few see themselves as designers, and fewer still talk about their work in design terms. Compared to other design fields like architecture and engineering, teaching has few of the concepts and tools to support design work. To address this we will need a much stronger recognition of the design work that higher education teachers do. Indeed, we need to reframe our notions of what teaching is, in order to see ‘teaching as design’. The idea of teaching as design offers us a holistic way of thinking about teaching as much more than the readily observable activities of interacting in class or online, or marking and providing feedback. It also invites us to go beyond personal acts of planning and preparation to consider what inspires design ideas, how ideas are shared, what shapes design decisions and how design occurs.</p>
+<p>Some of this work has already begun. Inspired by the challenges of effective integration of technology into teaching and learning, researchers in educational technology have been looking at some of these questions. Tools and strategies have been explored in more than a decade of research and development in ‘learning design’, ‘design for learning’ and ‘pedagogical patterns’. Much of this work focusses on new approaches to supporting teachers’ design work, particularly through the use of new technologies.</p>
+<blockquote>
+<p>&#8216;We don’t know enough about how teachers currently design, and this is a critical gap: if we aspire to build design capacity, we need to know where teachers are starting from.&#8217;</p>
+</blockquote>
+<p>However, at the same time, we don’t know enough about how teachers currently design. This is a critical gap because if we aspire to build design capacity we need to know where teachers are starting from. Without this knowledge we cannot anticipate what design supports are needed, when and by whom. For that we will need to build a more coherent knowledge base about teacher design that brings together what we already know, draws on relevant research from other fields, and undertakes new inquiries.</p>
+<p>Our own plan for future research is to draw on practice theory – in particular the theory of practice architectures (Kemmis et al 2014). The strength of this framing is that it offers a view of ‘teaching as design’ as a human social activity that is situated in place and time, with characteristic understandings, action and inter-relations. Ways of ‘teaching as design’ will vary across courses, disciplines and institutions, but will also share commonalities. Practice theory also offers us ways to think about how practices can be enabled or constrained, and how change can occur and could be supported. Our aim is to build a richer and more detailed conceptual model of teacher design that will inform both research and practice.</p>
+<p>Reflecting back on the broader challenge of rethinking teaching from a design perspective, we see five key challenges.</p>
+<ol>
+<li>Seeing design as integral and routine to higher education teaching.</li>
+<li>Ensuring that research findings are useful and usable.</li>
+<li>Developing new professional learning approaches.</li>
+<li>Engaging institutional leaders and policymakers.</li>
+<li>Acknowledging the limitations of design to drive change.</li>
+</ol>
+<hr />
+<p><b>*This blog post is based on the article ‘Towards sustainable technology‐enhanced innovation in higher education: Advancing learning design by understanding and supporting teacher design practice’ by Sue Bennett, Lori Lockyer and Shirley Agostinho, which is published in the <i>British Journal of Educational Technology</i> and is <a href="https://onlinelibrary.wiley.com/doi/10.1111/bjet.12683" target="_blank" rel="noopener">free-to-view for a time-limited period</a>, courtesy of the journal&#8217;s publisher, Wiley.</b></p>
+<hr />
+<p><b>References</b></p>
+<p>Bennett S, Agostinho S and Lockyer L (2018) ‘Towards sustainable technology-enhanced innovation in higher education: Advancing learning design by understanding and supporting teacher design practice’, <i>British Journal of Educational Technology</i>. <a href="https://onlinelibrary.wiley.com/doi/10.1111/bjet.12683" target="_blank" rel="noopener">https://onlinelibrary.wiley.com/doi/10.1111/bjet.12683</a></p>
+<p>Goodyear P (2015) ‘Teaching as design’, <i>HERDSA Review of Higher Education</i> 2: 27–50. <a href="http://www.herdsa.org.au/herdsa-review-higher-education-vol-2/27-50" target="_blank" rel="noopener">http://www.herdsa.org.au/herdsa-review-higher-education-vol-2/27-50</a></p>
+<p>Kemmis S, Wilkinson J, Edwards-Groves C, Hardy I, Grootenboer P and Bristol L (2014) <i>Changing education, changing practices</i>. Singapore: Springer Education</p>
+            </div>
+        </div>
+        
+<p>This article is republished from <a href="https://www.bera.ac.uk/blog/">The British Educational Research Association blog</a> under a Creative Commons license. Read the <a href="https://www.bera.ac.uk/blog/how-might-teacher-design-help-to-support-sustainable-innovation-in-higher-education">original article</a>.</p>

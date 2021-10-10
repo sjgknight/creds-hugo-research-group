@@ -1,0 +1,89 @@
+---
+
+---
+
+<!-- <h1 class="legacy">Artificial intelligence holds great potential for both students and teachers – but only if used wisely</h1> -->
+
+  <figure>
+    <img src="https://images.theconversation.com/files/178933/original/file-20170719-13534-1jtqyy8.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip" />
+      <figcaption>
+        Data big and small have come to education, from creating online platforms to increasing standardised assessments.
+        <span class="attribution"><span class="source">shutterstock</span></span>
+      </figcaption>
+  </figure>
+
+<span><a href="https://theconversation.com/profiles/simon-knight-207447">Simon Knight</a>, <em><a href="https://theconversation.com/institutions/university-of-technology-sydney-936">University of Technology Sydney</a></em> and <a href="https://theconversation.com/profiles/simon-buckingham-shum-391142">Simon Buckingham Shum</a>, <em><a href="https://theconversation.com/institutions/university-of-technology-sydney-936">University of Technology Sydney</a></em></span>
+
+<p><a href="https://theconversation.com/the-future-of-artificial-intelligence-two-experts-disagree-79904">Artificial intelligence</a> (AI) enables Siri to recognise your question, Google to correct your spelling, and tools such as <a href="https://utscic.edu.au/projects/uts-projects/collaboration-analytics/">Kinect</a> to track you as you move around the room.</p>
+
+<p>Data big and small have come to education, from creating online platforms to increasing standardised assessments. But how can AI help us use and improve it?</p>
+
+<h2>AI has a long history with education</h2>
+
+<p>Researchers in AI in education have been investigating how the two intersect <a href="http://iaied.org/journal/#vol26http://iaied.org/journal/">for several decades</a>. While it’s tempting to think that the primary dream for AI in education is to reduce marking load – a prospect made real through <a href="https://en.wikipedia.org/wiki/Automated_essay_scoring">automated essay scoring</a> – the breadth of applications goes beyond this. </p>
+
+<p>For example, researchers in AI in education have:</p>
+
+<ul>
+<li><p>developed <a href="https://en.wikipedia.org/wiki/Intelligent_tutoring_system">intelligent tutoring systems</a> that use student test responses to personalise how they navigate through material and assessments, targeting the skills they need to develop;</p></li>
+<li><p>investigated <a href="https://doi.org/10.1016%2Fj.ijhcs.2012.01.004">automatic detection of affect</a> – including whether students are bored or confused – and used that to adapt materials they use; and</p></li>
+<li><p>built conversational agents or chatbots that can engage in discussions with students, even to <a href="https://books.google.com.au/books?hl=en&amp;lr=&amp;id=GEK93NUHdXYC&amp;oi=fnd&amp;pg=PA383&amp;dq=conversational+agents+to+support+collaboration+%22artificial+intelligence%22&amp;ots=Rsn6bn8y9Z&amp;sig=n352V2BotxK68Z2VjMNXpHhKY5A#v=onepage&amp;q=tutorial%20dialogue%20as%20adaptive%20collaborative%20learning%20support&amp;f=false">support student-to-student collaboration</a>.</p></li>
+</ul>
+
+<h2>Artificial intelligence or intelligence amplification?</h2>
+
+<p>These are new approaches to learning that rely heavily on students engaging with new kinds of technology. But researchers in AI, and related fields such as <a href="http://solaresearch.org/">learning analytics</a>, are also thinking about how AI can provide more effective feedback to students and teachers.</p>
+
+<p><a href="http://radix.www.upenn.edu/learninganalytics/ryanbaker/STS-Baker-IJAIED-v15.pdf">One perspective</a> is that researchers should worry less about making AI ever more intelligent, instead exploring the potential that relatively “stupid” (automated) tutors might have to amplify human intelligence. </p>
+
+<p>So, rather than focusing solely on building more intelligent AI to take humans out of the loop, we should focus just as much on <a href="https://theconversation.com/rise-of-the-humans-intelligence-amplification-will-make-us-as-smart-as-the-machines-44767">intelligence amplification</a> — or, going back to its intellectual roots, <a href="http://www.dougengelbart.org/about/vision-highlights.html">intelligence augmentation</a>. This is the use of technology – including AI – to provide people with information that helps them make better decisions and learn more effectively. </p>
+
+<p>This approach combines computing sciences with human sciences. It takes seriously the need for technology to be integrated into everyday life. </p>
+
+<p>Keeping people in the loop is particularly important when the stakes are high, and AI is far from perfect. So, for instance, rather than focusing on <a href="https://en.wikipedia.org/wiki/Automated_essay_scoring">automating the grading of student essays</a>, some researchers are focusing on how they can provide intelligent feedback to students that helps them better <a href="https://link.springer.com/article/10.1007/s40593-016-0121-0/fulltext.html">assess their own writing</a>. </p>
+
+<p>And while some are considering if they can <a href="https://cs.stanford.edu/people/eroberts/cs201/projects/2010-11/ComputersMakingDecisions/robotic-nurses/index.html">replace nurses with robots</a>, we are seeking to design better feedback to help them become <a href="https://utscic.edu.au/health-sim-lak/">high-performance nursing teams</a>.</p>
+
+<figure>
+            <iframe width="440" height="260" src="https://www.youtube.com/embed/0Y7XkWocuVc?wmode=transparent&amp;start=232" frameborder="0" allowfullscreen=""></iframe>
+            <figcaption><span class="caption">UCL Professor Rose Luckin on artificial intelligence and the future of learning.</span></figcaption>
+          </figure>
+
+<h2>Impacts on what we teach</h2>
+
+<p>But for the use of AI to be sustainable, education also needs a second kind of change: what we teach.</p>
+
+<p>To be active citizens, students need a sound understanding of AI, and a critical approach to assessing the implications of the “datafication” of our lives – from the use of Facebook data to <a href="http://theconversation.com/can-facebook-influence-an-election-result-65541">influence voting</a>, to Google DeepMind’s <a href="https://www.theguardian.com/commentisfree/2017/jul/05/sensitive-health-information-deepmind-google">access to medical data</a>.</p>
+
+<p>Students also need the skills to manage this complexity, to work collaboratively and to innovate in a changing environment. These are qualities that could <a href="http://dx.doi.org/10.18608/jla.2016.32.2">perhaps be amplified</a> through effective use of AI. </p>
+
+<p>The potential is not only for education to be more efficient, but to think about how we teach: to keep <a href="https://www.researchgate.net/profile/Ido_Roll/publication/295681662_Evolution_and_Revolution_in_Artificial_Intelligence_in_Education/links/56db21ca08aebabdb412e15b.pdf">revolution in sight</a>, alongside evolution. </p>
+
+<p>Another response to AI’s perceived threat is to harness the technologies that will automate some forms of work, to <a href="https://www.youtube.com/watch?list=PLOF7tBP24lAdx-EE9OVY-ogbAIljBhicq&amp;v=F13g_RsjMBA">cultivate those higher-order qualities</a> that make humans distinctive from machines.</p>
+
+<figure>
+            <iframe width="440" height="260" src="https://www.youtube.com/embed/?wmode=transparent&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+            <figcaption><span class="caption">Simon Buckingham Shum on learning analytics versus cognitive automation.</span></figcaption>
+          </figure>
+
+<h2>Algorithmic accountability</h2>
+
+<p>Amid <a href="http://datasociety.net">growing concerns</a> about the pervasive role of algorithms in society, we must understand what “<a href="https://utscic.edu.au/algorithmic-accountability-learning-analytics/">algorithmic accountability</a>” means in education.</p>
+
+<p>Consider, for example, the potential for “predictive analytics” in flexi-pricing degrees based on a course-completion risk-rating built on online study habit data. Or the possibility of embedding existing human biases <a href="http://www.theguardian.com/news/datablog/2013/aug/14/problem-with-algorithms-magnifying-misbehaviour">into university offers</a>, or educational chatbots that seek to discern your needs.</p>
+
+<p>If AI delivers benefits only to students who have access to specific technologies, then inevitably this has the potential to marginalise some groups. </p>
+
+<p>Significant work is under way to clarify how <a href="http://dx.doi.org/10.18608/jla.2016.31.2">ethics and privacy principles</a> can underpin the use of AI and data analytics in education. Intelligence amplification helps counteract these concerns by keeping people in the loop.</p>
+
+<p>A further concern is AI’s potential to result in a de-skilling or redundancy of teachers. This could possibly fuel a two-tier system where differing levels of educational support are provided. </p>
+
+<h2>What does the future hold?</h2>
+
+<p>The future of learning with AI, and other technologies, should be targeted not only at learning subject content, but also at cultivating curiosity, creativity and resilience.</p>
+
+<p>The ethical development of such innovations will require both teachers and students to have a robust understanding of how to work with data and AI to support their participation in society and across the professions.<!-- Below is The Conversation's page counter tag. Please DO NOT REMOVE. --><img src="https://counter.theconversation.com/content/81024/count.gif?distributor=republish-lightbox-basic" alt="The Conversation" width="1" height="1" style="border: none !important; box-shadow: none !important; margin: 0 !important; max-height: 1px !important; max-width: 1px !important; min-height: 1px !important; min-width: 1px !important; opacity: 0 !important; outline: none !important; padding: 0 !important; text-shadow: none !important" /><!-- End of code. If you don't see any code above, please get new code from the Advanced tab after you click the republish button. The page counter does not collect any personal data. More info: https://theconversation.com/republishing-guidelines --></p>
+
+<p><span><a href="https://theconversation.com/profiles/simon-knight-207447">Simon Knight</a>, Lecturer in Learning Analytics, <em><a href="https://theconversation.com/institutions/university-of-technology-sydney-936">University of Technology Sydney</a></em> and <a href="https://theconversation.com/profiles/simon-buckingham-shum-391142">Simon Buckingham Shum</a>, Professor of Learning Infomatics, <em><a href="https://theconversation.com/institutions/university-of-technology-sydney-936">University of Technology Sydney</a></em></span></p>
+
+<p>This article is republished from <a href="https://theconversation.com">The Conversation</a> under a Creative Commons license. Read the <a href="https://theconversation.com/artificial-intelligence-holds-great-potential-for-both-students-and-teachers-but-only-if-used-wisely-81024">original article</a>.</p>

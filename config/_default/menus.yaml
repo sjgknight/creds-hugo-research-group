@@ -7,24 +7,56 @@ main:
   - name: News
     url: post
     weight: 20
-  - name: Projects
+  - name: Our Research
     url: project
-    weight: 30    
+    weight: 30
+    identifier: "us"
+  - name: People
+    url: people
+    parent: "us"
+    identifier: "people"
+  - name: Publications
+    url: publication
+    parent: "us"
+    identifier: "publications"
   - name: Events
     url: event
-    weight: 50
+    parent: "us"
+    identifier: "events"   
+  - name: Projects
+    url: research
+    parent: "us"
+    identifier: "projects"
+    weight: 1
   - name:  Twitter
     pre: <i class='fab fa-twitter'></i> 
     url: https://twitter.com/UTS_CREDS
     weight: 70
   - name:  UTS Home
     pre: <i class='fa fa-home'></i>
-    url: contact
+    url: https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society
     weight: 80
-
-  - name: People
-    url: people
-    weight: 40
-  - name: Publications
-    url: publication
-    weight: 60
+    
+# research:
+#   - name: Research
+#     url: research#Understanding digital learning in a digital society
+#     weight: 20
+#####################################
+ # - name: Projects
+ #    url: project
+ #    weight: 30    
+ #  - name: Events
+ #    url: event
+ #    weight: 50
+ #     - name: People
+ #    url: people
+ #    weight: 40
+ #  - name: Publications
+ #    url: publication
+ #    weight: 60
+ #    
+ #  - name: project
+ #    parent: "us"
+ #    identifier: "proj"
+ #    url: projects
+ # 

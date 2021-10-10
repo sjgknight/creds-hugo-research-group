@@ -1,7 +1,3 @@
-github.com/sjgknight/hugo-connectome-theme-demo v0.0.0-20210721191438-618d13397cba h1:wCNJ/SKiSg86ymEdO0V/ue5J6uCr024A6wpcCZATFn8=
-github.com/sjgknight/hugo-connectome-theme-demo v0.0.0-20210721191438-618d13397cba/go.mod h1:Llg4tgOjZkwKNTFpHOXmmrGS9Td4XWSCIEWBZlOin4s=
-github.com/sjgknight/wowchemy-widget-sk-hero v0.0.0-20210806110009-e350e0ad297d h1:PDzfMlCFKy8b187SaXV75qPUw7bXSogF8mtaxw1jVxc=
-github.com/sjgknight/wowchemy-widget-sk-hero v0.0.0-20210806110009-e350e0ad297d/go.mod h1:xWNpyBRqIqXtw3MgUsqTC6cN53bLcDjN5B5t5qfFYBQ=
 github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210526223849-81ba17522966 h1:qQ+BOah36CL2HMtG4NLZGhZ0MGBwq7CPy9DPll1U8Yk=
 github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210526223849-81ba17522966/go.mod h1:H22qfH9qj3FWwsk7+bAZpmT24yRGNQURah2/IRwjbn8=
 github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms v0.0.0-20210526223849-81ba17522966 h1:WZer9Efx+RVA6ywDcyWNdQyZi3j/Sr77AVy1oHKEu7s=
