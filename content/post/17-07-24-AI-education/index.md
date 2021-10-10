@@ -4,7 +4,8 @@ subtitle: Article in The Conversation
 date: 2017-07-24
 draft: false
 featured: false
-#authors: Simon-Knight
+authors: ["Simon Knight","Simon Buckingham Shum"]
+tags: ["AI","IA","learning analytics"]
 categories:
   - news
   - media

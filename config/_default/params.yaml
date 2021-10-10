@@ -65,7 +65,7 @@ address_format: en-us
 highlight: false
 math: false
 diagram: false
-privacy_pack: false
+privacy_pack: true
 show_related:
   post: true
   project: true

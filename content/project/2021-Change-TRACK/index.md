@@ -3,12 +3,22 @@ title: Tailored Recruitment Analytics and Curriculum Knowledge (TRACK)
 date: 2021-08-03
 draft: false
 featured: false
-external_link: 'https://lx.uts.edu.au/blog/2021/03/03/on-track-employability-workforce-transition/'
+external_link: 
 image:
   filename: featured
   focal_point: Smart
   preview_only: false
 #page_type: project
+links:
+  - icon_pack: fas
+    icon: arrow-alt-circle-left
+    name: View all our research
+    url: '/research'
+  - icon_pack: fas
+    icon: eye
+    name: More on project site
+    url: 'https://lx.uts.edu.au/blog/2021/03/03/on-track-employability-workforce-transition/'
+
 authors: ["Kirsty Kitto"]
 tags: 
   - Change-Design

@@ -2,15 +2,17 @@
 title: We’re delighted to launch the Centre for Research on Education in a
   Digital Society.
 date: 2021-01-04
-draft: true
-featured: false
-tags: []
+draft: false
+featured: true
+tags: ["CREDS"]
 categories:
   - news
 image:
-  filename: featured
+  filename: featured.jpg
+  position: 1
+  caption: Featured image is of UTS Building 2 'double helix' staircase, by MDRX, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
   focal_point: Smart
-  preview_only: false
+  preview_only: true
 ---
 <!--StartFragment-->
 
@@ -27,3 +29,5 @@ The centre does this by working with you - our partners – and our interdiscipl
 We’ll be posting more about our research, and continuing to work with current and new partners over the coming months; we invite you to [get in touch if you’d like to work with us](https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society/work-us).
 
 <!--EndFragment-->
+
+<span style="color:grey">Featured image is of UTS Building 2 'double helix' staircase, by MDRX, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons</span>

@@ -11,7 +11,57 @@
   <div class="bl-section">
     <h4>Links to here </h4>
     <div class="backlinks">
-      <ul>
+
+<!--FROM HERE THIS IS TAKEN FROM THE list.html PAGE REPLACE IF NECESSARY-->
+<!--If there is any recent news, show the heading once, and then the pieces.--> 
+        {{ range (first 1 (where $backlinks "Section" "post" )) }}
+        <h3> Recent News </h3>
+        {{ end }}
+        
+        {{ range (where $backlinks "Section" "post" ) }}
+        <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }}
+
+<!--If there are any projects, show the heading once, then range through the projects and display title.-->       
+        {{ range (first 1 (where $backlinks "Section" "project" )) }}
+        <br>
+        <h3> Projects </h3> 
+        {{ end }}
+        
+        {{ range (where $backlinks "Section" "project" ) }}
+        <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }} 
+
+<!--If there are any methods, show the heading once, then range through the projects and display title.-->   
+        {{ range (first 1 (where $backlinks "Section" "methods" )) }}
+        <br>
+          <h3> Methods </h3>
+          {{ end }}
+          
+          {{ range (where $backlinks "Section" "methods" ) }}
+          <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a> </li>
+          {{ end }}
+
+<!--If there are is any teaching, show the heading once, and then loop.-->  
+        {{ range (first 1 (where $backlinks "Section" "teaching" )) }}
+         <br>
+        <h3> Teaching </h3>
+        {{ end }}
+        
+        {{range (where $backlinks "section" "teaching" ) }}
+        <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }}
+
+<!--If there are any publications, show the heading once, and the first 10 publications.-->  
+          {{ range (first 1 (where $backlinks "Section" "publication" )) }}
+          <br>
+        <h3> Recent Publications </h3>
+        {{ end }}
+        {{ range (first 10 (where $backlinks "Section" "publication" )) }}
+         <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a> </li>
+         {{ end }}     
+
+<!--      <ul>
         {{ range (where $backlinks "Section" "post" ) }}
         <h3> Recent News </h3>
             <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
@@ -37,7 +87,8 @@
          <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
          {{ end }}
 
-      </ul>
+      </ul> -->
+
     </div>
   </div>
 {{ else }}

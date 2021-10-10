@@ -24,28 +24,55 @@
     {{ if $count }}
     <div class="article-widget content-widget-hr">
       <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
-      <ul>
-        {{ range (where $query "Section" "post" ) }}
+
+<!--If there is any recent news, show the heading once, and then the pieces.--> 
+        {{ range (first 1 (where $query "Section" "post" )) }}
         <h3> Recent News </h3>
-            <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
-         {{ end }}
-        {{ range (where $query "Section" "project" ) }}
-         <br>
-        <h3> Projects </h3>
-            <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
-         {{ end }}
-         {{ range (where $query "Section" "methods" ) }}
-                   <br>
-          <h3> Methods </h3>
-         <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
-         {{ end }}
-         <br>
-          <h3> Recent Publications </h3>
-         {{ range (first 10 (where $query "Section" "publication" )) }}
-         <li><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+        {{ end }}
+        
+        {{ range (where $query "Section" "post" ) }}
+        <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
          {{ end }}
 
-      </ul>
+<!--If there are any projects, show the heading once, then range through the projects and display title.-->       
+        {{ range (first 1 (where $query "Section" "project" )) }}
+        <br>
+        <h3> Projects </h3> 
+        {{ end }}
+        
+        {{ range (where $query "Section" "project" ) }}
+        <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }} 
+
+<!--If there are any methods, show the heading once, then range through the projects and display title.-->   
+        {{ range (first 1 (where $query "Section" "methods" )) }}
+        <br>
+          <h3> Methods </h3>
+          {{ end }}
+          
+          {{ range (where $query "Section" "methods" ) }}
+          <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a> </li>
+          {{ end }}
+
+<!--If there are is any teaching, show the heading once, and then loop.-->  
+        {{ range (first 1 (where $query "Section" "teaching" )) }}
+         <br>
+        <h3> Teaching </h3>
+        {{ end }}
+        
+        {{range (where $query "section" "teaching" ) }}
+        <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a></li>
+         {{ end }}
+
+<!--If there are any publications, show the heading once, and the first 10 publications.-->  
+          {{ range (first 1 (where $query "Section" "publication" )) }}
+          <br>
+        <h3> Recent Publications </h3>
+        {{ end }}
+        {{ range (first 10 (where $query "Section" "publication" )) }}
+         <li style="list-style-type:none"><a href="{{ .RelPermalink }}">{{ .Type | title}}: {{ .Title }}</a> </li>
+         {{ end }}
+<!--End of showing user stuff, close the div and the loop-->
     </div>
     {{ end }}
   </div>

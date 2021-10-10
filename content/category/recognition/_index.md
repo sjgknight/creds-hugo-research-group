@@ -1,5 +1,6 @@
 ---
 title: Recognition
+subtitle: "This page lists all pieces about recognition of CREDS or its members."
 cms_exclude: true
 
 # View.
@@ -13,5 +14,3 @@ header:
   caption: ""
   image: ""
 ---
-
-There's some description text here
