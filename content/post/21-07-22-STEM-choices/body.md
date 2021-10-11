@@ -8,10 +8,6 @@
       </figcaption>
   </figure>
 
-<span><a href="https://theconversation.com/profiles/tracey-ann-palmer-175655">Tracey-Ann Palmer</a>, <em><a href="https://theconversation.com/institutions/university-of-technology-sydney-936">University of Technology Sydney</a></em></span>
-
-<p><em>This article is part of a <a href="https://theconversation.com/au/topics/senior-subjects-series-107516">series</a> providing school students with evidence-based advice for choosing subjects in their senior years.</em> </p>
-
 <p>Studying science helps you make sense of the world and opens the door to a wide range of careers.</p>
 
 <p>If you’ve decided to be a doctor or engineer then you will already know you need to do a science. But if you’re in the <a href="https://growingupinaustralia.gov.au/sites/default/files/publication-documents/lsac-asr-2018-chap9-subject_choices.pdf">45% of students</a> who don’t know what career they’ll end up in, you may want to study a range of different subject types to keep your options open. Science could be one of them.</p>
@@ -155,5 +151,7 @@ The Australian Curriculum groups <a href="https://www.australiancurriculum.edu.a
 <div data-react-class="Tweet" data-react-props="{&quot;tweetId&quot;:&quot;1417399025930698752&quot;}"></div>
 
 <p><span><a href="https://theconversation.com/profiles/tracey-ann-palmer-175655">Tracey-Ann Palmer</a>, Lecturer, Initial Teacher Education, <em><a href="https://theconversation.com/institutions/university-of-technology-sydney-936">University of Technology Sydney</a></em></span></p>
+
+<p><em>This article is part of a <a href="https://theconversation.com/au/topics/senior-subjects-series-107516">series</a> providing school students with evidence-based advice for choosing subjects in their senior years.</em> </p>
 
 <p>This article is republished from <a href="https://theconversation.com">The Conversation</a> under a Creative Commons license. Read the <a href="https://theconversation.com/thinking-of-choosing-a-science-subject-in-years-11-and-12-heres-what-you-need-to-know-164778">original article</a>.</p>

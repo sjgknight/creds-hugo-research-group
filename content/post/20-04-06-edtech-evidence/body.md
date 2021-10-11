@@ -2,9 +2,6 @@
 
 ---
 
-<div class="author">By Simon Knight, Anissa Moeini and Alison Clark-Wilson</div>
-
-<p><!-- wp:paragraph -->
 <p>As researchers, we care that our educational systems improve, support all learners, and are grounded solidly in research evidence. But how do we work with stakeholders like educational technology startups to support effective use of that evidence?
 Researchers and practitioners worry about this, because we care about evaluating and scaling good ideas. By ‘scaling’ we mean adjusting and improving good ideas as they are rolled out and used.</p>
 <!-- /wp:paragraph --></p>
