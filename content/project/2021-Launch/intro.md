@@ -72,4 +72,4 @@ Our learning needs are in dynamic interaction with the world aroud us, and we ne
 
 * How do we model the change, and design technologies that support learning through these changes? 
 * What skills and knowledge do people need to learn, and what new tools do we have to help them? 
-* How do we help teachers in using digital technologies to support their learners?  
+* How do we help teachers in using digital technologies to support their learners?
