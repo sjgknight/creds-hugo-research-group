@@ -14,6 +14,7 @@ image:
   focal_point: Smart
   preview_only: true
 ---
+
 <!--StartFragment-->
 
 Technology and learning are fundamentally entwined across our professional and civic lives, and formal education. The Centre exists to further our understanding of the dynamic relationship between technology and learning, across formal, informal, and professional education contexts throughout the lifespan.
