@@ -28,6 +28,8 @@ The pandemic has brought into stark relief how engagement with evidence and scie
 Digital technologies are intertwined with this learning. They shape our education needs, how we navigate trust on social media, understand complex data, and engage with critical and creative thinking when learning and work are conducted from home. They also offer opportunities, for understanding these learning needs, sharing knowledge, building trust in communities, and technology enhanced teaching to engage with new complex information and data. That is, who we trust, and how we think about knowledge, are bound up with our learning, and intertwined with our tools.  
 
 ### An invitation to think with us
+{{< cta cta_text="Scroll down to share your expertise via our survey" cta_link="#survey" cta_new_tab="false" >}}
+
 This brief gives a taster of how taking a learning and technologies perspective can help illuminate concerns around trust, truth, and knowing in the pandemic.  
 
 Below, we share some of our headline thinking, as invitation to think with us. Our partners are across the school sector, museums, galleries, and libraries, technology companies and edtech, organisations that support learning across different communities and lifestages, and more, as well as of course UTS and university partners. All of your contexts, and expertise, are important, We hope you’ll take up this invitation to add more voices of expertise in response to these brief provocations.  
@@ -46,7 +48,7 @@ The pandemic has highlighted the power of learning and technology, through the w
 <div style= "float:right;margin:5px;width:50%;">{{< figure src="covid-data.jpg" caption="Photo by <a href='https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Clay Banks</a> on <a href='https://unsplash.com/photos/_Jb1TF3kvsA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>" numbered="false" alt="Data visualisation of COVID-19 cases, by Clay Banks on Unsplash" >}}</div>
 
 
-The pandemic has highlighted huge variation in how people and civic society think about, and build on evidence and data. On the one hand, there has been widespread concern regarding denialism, of the seriousness of the pandemic, and around efficacy or safety of treatment and mitigation options. 
+The pandemic has highlighted huge variation in how people and civil society think about, and build on evidence and data. On the one hand, there has been widespread concern regarding denialism, of the seriousness of the pandemic, and around efficacy or safety of treatment and mitigation options. 
 
 On the other side, the mantra “follow the science” has at times failed to acknowledge that “the science” is not a body of fixed knowledge, but a collection of human processes, testing and building theory in an iterative, evolving, and uncertain manner. 
 
