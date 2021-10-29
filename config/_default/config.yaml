@@ -5,7 +5,7 @@
 
 title: CREDS # Website name
 baseurl: 'https://creds.netlify.app/' # Website URL
-copyright: '© {year} CREDS <br>CREDS members acknowledge the Gadigal people of the Eora Nation, upon whose ancestral lands our university stands. We would also like to pay respect to the Elders both past and present, acknowledging them as the traditional custodians of knowledge for these lands.' # Footer text, e.g. '© {year} Me'
+copyright: '© {year} CREDS' # Footer text, e.g. '© {year} Me'
 
 googleAnalytics: "" # Optional, add tracking Id for analytics
 

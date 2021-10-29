@@ -1,0 +1,17 @@
+{{/* Display acknowledgement. */}}
+
+{{ $acknowledgement := site.Params.acknowledgement }}
+
+{{ if and $acknowledgement $acknowledgement.enable }}
+
+  {{ $notice := site.Params.acknowledgement.notice  }}
+
+    <p class="powered-by">
+      {{ $notice }}
+    </p>
+
+  <p class="powered-by">
+  {{ site.Params.acknowledgement.notice }}
+  </p>
+
+{{ end }}
