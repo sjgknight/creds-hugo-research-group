@@ -1,5 +1,72 @@
 Template for group website from Wowchemy, with some minor tweaks as below.
 
+* The site is built on https://github.com/wowchemy/starter-hugo-academic
+* I have made some widget edits using the widget template https://github.com/wowchemy/wowchemy-widget-starter and the instructions at https://makingwebsiteswithr.rbind.io/tutorial/06_widgets_part2/ 
+* The site imports templates, etc. from https://github.com/wowchemy/wowchemy-hugo-themes/ - some of these are overwritten (if they exist in this repo, that overwrites the orginal) per below.
+
+## References
+Used another great tool, wowchemy publication tool to create publication pages from bibtex; may need periodic updating (or connecting to a feed) https://github.com/wowchemy/hugo-academic-cli 
+
+I obtained the bibtex from publish or perish (via google scholar), and did some minor editing in Zotero before exporting. BUT this is flawed, scholar only lets you grab the first x authors, so many pubs have ... as an author...these need fixing at some point
+  
+## Tweaks to layouts, etc.
+
+I made a number of changes to layouts to:
+
+* Add an 'acknowledgement' footer that is separate from the copyright (which is the default way to add it. This has a number of disadvantages including that it shows up in the RSS template by default, and moreover that it mis-labels a distinct recognition. For some reason I had to overwrite this blank file https://github.com/wowchemy/wowchemy-hugo-themes/wowchemy/layouts/partials/hooks/footer.html (which, I think, lets you insert a custom footer on pages. Not relevant for me), and adding to layouts/partials/site_footer.html and then add a param (acknowledgement) to the params.yaml config/_default/params.yaml 
+* I made a minor change to layouts/partials/li_compact.html (I think) for styling
+* I made changes to single.html and authors list.html for backlinks per below
+* I added main/layouts/shortcodes include_html and include_md shortcodes to transclude another file into an md (but, the other file must have an empty yaml header, or for html only tags between the body tags)
+* updated layouts/partials/widgets/hero_media.html to allow video media (with thanks to Rodri), this seems to size videos to the heading level, so the video needed to be parallel to the body-text of the widget
+* there are junk/draft edits in layouts/partials and creds-hugo-research-group/wowchemy/layouts/partials/widgets/ - these should, I think, be deleted
+* https://github.com/sjgknight/creds-hugo-research-group/data/ has edits for the theme, and for the CMS (in the cms yaml file there)
+** To develop the CMS further it may be useful to edit https://gohugo.io/content-management/archetypes/
+
+## Link gardens and back links
+I'm interested in drawing on ideas of digital gardens or link gardens, in which rather than organising by date, people navigate through starting at different points and going down different paths through connected content.  Tags and categories can do that to some degree, but it tends to always be sequential. An obvious use case in academia is wanting to show links between people <-> projects <-> publications <-> news <-> methods, etc. 
+
+To do this I made some edits from (note, if the directory structure is as mine/wowchemy and uses index.md within a named directory per-post, you need to change BaseFileName to ContentBaseName in the backlinks partial)
+
+* https://git.sehn.dev/linozen/wowchemy-hugo-modules/src/commit/b1acd15a2ef6958c2aefd806d9f7cd6f212565a7/wowchemy/layouts/partials/backlinks.html 
+
+Other places that have implemented some form of backlink approach in hugo are:
+* https://github.com/kausalflow/connectome/tree/master/layouts/partials (see also https://hugo-connectome.kausalflow.com/graph/ )
+*  https://gabrielleearnshaw.medium.com/implementing-backlinks-in-a-hugo-website-e548d3d8f0e0 
+* and https://seds.nl/notes/export_org_roam_backlinks_with_gohugo/ (despite the url it isn't roam export, it's within hugo)
+* @apreshill also has an "on this page" which shows the headings for a page, which I assume could be used to show the links https://github.com/rbind/apreshill/search?q=%22on+this+page%22&type= 
+
+In Jekyll see :
+* https://digital-garden-jekyll-template.netlify.app/your-first-note
+* https://github.com/maximevaillancourt/digital-garden-jekyll-template/network/members 
+* https://manunamz.github.io/jekyll-bonsai/
+
+Roam is a common note tool for this kind of approach
+* https://nesslabs.com/roam-research 
+
+## Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
+
+The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+
+There's a [nice demo at](https://academic-demo.netlify.app/).
+
+[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 5 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+
+_[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs._
+
+- 👉 [**Get Started**](https://wowchemy.com/templates/)
+- 📚 [View the **documentation**](https://wowchemy.com/docs/)
+- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
+- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
+- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
+- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-modules/releases)
+
+### Crowd-funded open-source software
+
+To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+
+#### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/sponsor/)
+
+
 ## My notes for files
 
 ---
@@ -136,72 +203,3 @@ Check out one of the markdown table generators, or use the gui rstudio approach
 
 ### and for a file you might put it in /static/uploads/
 {{% staticref "uploads/cv.pdf" "newtab" %}}Download my CV{{% /staticref %}}
-
-
-
-
-## References
-Used another great tool, wowchemy publication tool to create publication pages from bibtex; may need periodic updating (or connecting to a feed) https://github.com/wowchemy/hugo-academic-cli 
-
-I obtained the bibtex from publish or perish (via google scholar), and did some minor editing in Zotero before exporting. BUT this is flawed, scholar only lets you grab the first x authors, so many pubs have ... as an author...these need fixing at some point
-  
-## Tweaks to layouts, etc.
-
-I made a number of changes to layouts to:
-
-* Add an 'acknowledgement' footer that is separate from the copyright (which is the default way to add it. This has a number of disadvantages including that it shows up in the RSS template by default, and moreover that it mis-labels a distinct recognition. For some reason I had to overwrite this blank file https://github.com/wowchemy/wowchemy-hugo-themes/wowchemy/layouts/partials/hooks/footer.html (which, I think, lets you insert a custom footer on pages. Not relevant for me), and adding to layouts/partials/site_footer.html and then add a param (acknowledgement) to the params.yaml config/_default/params.yaml 
-* I made a minor change to layouts/partials/li_compact.html (I think) for styling
-* I made changes to single.html and authors list.html for backlinks per below
-* I added main/layouts/shortcodes include_html and include_md shortcodes to transclude another file into an md (but, the other file must have an empty yaml header, or for html only tags between the body tags)
-* updated layouts/partials/widgets/hero_media.html to allow video media (with thanks to Rodri), this seems to size videos to the heading level, so the video needed to be parallel to the body-text of the widget
-* there are junk/draft edits in layouts/partials and creds-hugo-research-group/wowchemy/layouts/partials/widgets/ - these should, I think, be deleted
-
-
-## Link gardens and back links
-I'm interested in drawing on ideas of digital gardens or link gardens, in which rather than organising by date, people navigate through starting at different points and going down different paths through connected content.  Tags and categories can do that to some degree, but it tends to always be sequential. An obvious use case in academia is wanting to show links between people <-> projects <-> publications <-> news <-> methods, etc. 
-
-To do this I made some edits from (note, if the directory structure is as mine/wowchemy and uses index.md within a named directory per-post, you need to change BaseFileName to ContentBaseName in the backlinks partial)
-
-* https://git.sehn.dev/linozen/wowchemy-hugo-modules/src/commit/b1acd15a2ef6958c2aefd806d9f7cd6f212565a7/wowchemy/layouts/partials/backlinks.html 
-
-Other places that have implemented some form of backlink approach in hugo are:
-* https://github.com/kausalflow/connectome/tree/master/layouts/partials (see also https://hugo-connectome.kausalflow.com/graph/ )
-*  https://gabrielleearnshaw.medium.com/implementing-backlinks-in-a-hugo-website-e548d3d8f0e0 
-* and https://seds.nl/notes/export_org_roam_backlinks_with_gohugo/ (despite the url it isn't roam export, it's within hugo)
-* @apreshill also has an "on this page" which shows the headings for a page, which I assume could be used to show the links https://github.com/rbind/apreshill/search?q=%22on+this+page%22&type= 
-
-In Jekyll see :
-* https://digital-garden-jekyll-template.netlify.app/your-first-note
-* https://github.com/maximevaillancourt/digital-garden-jekyll-template/network/members 
-* https://manunamz.github.io/jekyll-bonsai/
-
-Roam is a common note tool for this kind of approach
-* https://nesslabs.com/roam-research 
-
-
-## Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
-
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
-
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 5 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
-
-_[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs._
-
-- 👉 [**Get Started**](https://wowchemy.com/templates/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-modules/releases)
-
-### Crowd-funded open-source software
-
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
-
-#### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/sponsor/)
-
-### Ecosystem
-
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli/):** Automatically import publications from BibTeX
-
-[![Screenshot](./preview.png)](https://wowchemy.com/templates/)
