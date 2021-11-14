@@ -14,7 +14,7 @@ I obtained the bibtex from publish or perish (via google scholar), and did some 
 I made a number of changes to layouts to:
 
 * Add an 'acknowledgement' footer that is separate from the copyright (which is the default way to add it. This has a number of disadvantages including that it shows up in the RSS template by default, and moreover that it mis-labels a distinct recognition. For some reason I had to overwrite this blank file https://github.com/wowchemy/wowchemy-hugo-themes/wowchemy/layouts/partials/hooks/footer.html (which, I think, lets you insert a custom footer on pages. Not relevant for me), and adding to layouts/partials/site_footer.html and then add a param (acknowledgement) to the params.yaml config/_default/params.yaml 
-* I made a minor change to layouts/partials/li_compact.html (I think) for styling
+* I made a minor change to layouts/partials/li_compact.html for styling, it now shows a shadow box per li_card.html, _however_ in doing this the image hoverover has been broken, which may be worth fixing 
 * I made changes to single.html and authors list.html for backlinks per below
 * I added main/layouts/shortcodes include_html and include_md shortcodes to transclude another file into an md (but, the other file must have an empty yaml header, or for html only tags between the body tags)
 * updated layouts/partials/widgets/hero_media.html to allow video media (with thanks to Rodri), this seems to size videos to the heading level, so the video needed to be parallel to the body-text of the widget
