@@ -20,7 +20,7 @@ I made a number of changes to layouts to:
 * updated layouts/partials/widgets/hero_media.html to allow video media (with thanks to Rodri), this seems to size videos to the heading level, so the video needed to be parallel to the body-text of the widget
 * there are junk/draft edits in layouts/partials and creds-hugo-research-group/wowchemy/layouts/partials/widgets/ - these should, I think, be deleted
 * https://github.com/sjgknight/creds-hugo-research-group/data/ has edits for the theme, and for the CMS (in the cms yaml file there)
-** To develop the CMS further it may be useful to edit https://gohugo.io/content-management/archetypes/
+  * To develop the CMS further it may be useful to edit https://gohugo.io/content-management/archetypes/
 
 ## Link gardens and back links
 I'm interested in drawing on ideas of digital gardens or link gardens, in which rather than organising by date, people navigate through starting at different points and going down different paths through connected content.  Tags and categories can do that to some degree, but it tends to always be sequential. An obvious use case in academia is wanting to show links between people <-> projects <-> publications <-> news <-> methods, etc. 
