@@ -77,6 +77,14 @@
       {{ end }}
     </div>
 
+      <!-- {{ if .Truncated }}
+      <!- - This <div> includes a read more link, but only if the summary is truncated... - ->
+      <div>
+        <a href="{{ .RelPermalink }}">Read More…</a>
+      </div>
+      {{ end }}
+      -->
+      
     {{ if $has_attachments }}
     <div class="btn-links">
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}

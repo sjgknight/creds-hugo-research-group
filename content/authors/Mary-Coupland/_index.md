@@ -9,6 +9,11 @@ organizations:
 
 bio: Associate Professor Mary Coupland is the Director of the UTS Mathematics and Science Study Centre and lectures in mathematics and quantitative literacy.
 
+interests:
+- Mathematics Education
+- Critical and Creative Thinking
+- Teacher Professional Development
+
 social:
 - icon: twitter
   icon_pack: fab

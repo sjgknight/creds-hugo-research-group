@@ -9,6 +9,11 @@ organizations:
 
 bio: Dr Kimberley Pressick-Kilborn was a Senior Lecturer in Teacher Education programs at the School of International Studies and Education, and in 2021 returned to a primary classroom teaching position.
 
+social:
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/PressickK
+
 user_groups: 
 - Honorary Associate Member
 ---

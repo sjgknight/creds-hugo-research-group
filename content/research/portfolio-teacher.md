@@ -57,6 +57,13 @@ content:
   # - name: The Digital Teacher
   #   tag: Teaching
 
+# filter_default: 1
+# filter_button:
+#   - name: Active projects
+#     featured: true
+#   - name: Archived projects
+#     featured: false
+
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '2'

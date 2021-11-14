@@ -1,0 +1,64 @@
+---
+title: Data literacy for learning data
+date: 2021-08-03
+draft: false
+featured: true
+external_link: 
+image:
+  placement: 1
+  caption: "AI or Intelligence Augmentation? Photo by AbsolutVision on Unsplash"
+  focal_point: "Center"
+  preview_only: false
+  alt_text: "Photo shows a compass over a sheet of numbers, illustrating use of AI to guide decisions"
+
+links:
+  - icon_pack: fas
+    icon: arrow-alt-circle-left
+    name: View all our research
+    url: '/research'
+  - icon_pack: fas
+    icon: eye
+    name: More on project site
+    url: ''
+
+authors: ["Simon Knight","Rita Prestigiacomo","Jane Hunter", "Kimberley Pressick-Killborn", "Lori Lockyer", "Roberto Martinez Maldonado","Shibani Antonette"]
+tags: 
+  - Data-literacy
+  - data
+  - schools
+  - HE
+  - participatory-design
+
+---
+
+We have undertaken a number of projects around teacher data literacy and design for learning, and the idea of making learning visible. 
+
+Much of this work is around how teachers (across sectors) think about the data they use in their practice, and what features of learning processes and products they would like insight into. The intent is not to assess data literacy, or to directly translate these discussions into products, but rather to explore the potential (and limitations) of data and technologies with teachers, to understand their practice and how data-informed technologies may support this. 
+
+We have also used interviews to investigate the particular reasoning and design practices of instructors using learning analytics, and quasi-experimental methods with surveys and assessment outcomes to compare student outcomes in the context of different tools and designs for learning.
+
+You can view one simple workshop design we used to elicit discussion in the embed below:
+
+{{< gdocs src="https://docs.google.com/presentation/d/e/2PACX-1vRDaftOgqmLRxqDzw6KytnJmsk_OEcvIVQMJ9s1fPXcvgQjScYtTpgDFXruxCTl0g/embed?start=false&loop=false&delayms=60000" >}}
+
+<br>
+
+### Read more in our publications
+
+Read our news posts on some of this work:
+
+{{< cite page="/post/21-02-11-data-evidence" view="" >}}
+
+{{< cite page="/post/17-07-24-ai-education" view="" >}}
+
+And some of our scholarly publications:
+
+{{< cite page="/publication/prestigiacomo-learningcentred-translucence-approach-2020-a" view="4" >}}
+
+{{< cite page="/publication/prestigiacomo-data-practice-participatory-2020" view="4" >}}
+
+{{< cite page="/publication/publication/knight-aca-writer-learning-analytics-2020-a" view="4" >}}
+
+{{< cite page="/publication/knight-implementing-learning-analytics-2020-a" view="4" >}}
+
+{{< cite page="/publication/shibani-educator-perspectives-learning-2020-a" view="4" >}}

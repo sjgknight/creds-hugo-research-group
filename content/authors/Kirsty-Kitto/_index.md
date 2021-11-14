@@ -9,6 +9,12 @@ organizations:
 
 bio: Kirsty Kitto is an Associate Professor in the Connected Intelligence Centre, where she models the many ways in which humans interact with information, and how this can change as a result of the different contexts in which people find themselves.
 
+interests:
+- Learning Analytics
+- Learning Design
+- Quantum Cognition
+- Skills Modelling
+
 social:
 - icon: twitter
   icon_pack: fab

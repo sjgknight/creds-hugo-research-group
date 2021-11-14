@@ -9,6 +9,11 @@ organizations:
 
 bio: Sandy Schuck is Professor of Education and past Director of Research Training in the Faculty of Arts and Social Sciences, University of Technology Sydney.
 
+social:
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/sandyruthinoz
+
 user_groups: 
 - Honorary Associate Member
 ---

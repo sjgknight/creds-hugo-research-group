@@ -7,7 +7,7 @@ organizations:
 - name: UTS
   url: https://profiles.uts.edu.au/anne.prescott
 
-bio: From 2011 Anne conducted mathematics, science and English teacher professional development in a remote region of Nepal.
+bio: Associate Professor Anne Prescott started her career as a secondary school teacher of mathematics, and at UTS lectured in the primary and secondary mathematics teacher education courses and coordinates the Master of Teaching (secondary).
 
 user_groups: 
 - Honorary Associate Member

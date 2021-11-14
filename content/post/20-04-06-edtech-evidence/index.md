@@ -4,7 +4,7 @@ subtitle: Article in EduResearch Matters, The Australian Association for Researc
 date: 2020-04-06
 draft: false
 featured: false
-authors: ["Simon Knight"]
+authors: ["Simon Knight","Anissa Moeini","Alison Clark-Wilson"]
 tags: ["edtech","evidence","implementation"]
 categories:
   - news

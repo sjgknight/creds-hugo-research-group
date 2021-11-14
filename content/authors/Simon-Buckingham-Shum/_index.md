@@ -9,6 +9,12 @@ organizations:
 
 bio: Simon is a Professor and Director of the Connected Intelligence Centre at UTS which specialises in Educational Data Science and Human-Centred Design to develop interactive tools that help leaders, analysts, educators and students uncover new insights.
 
+interests:
+- Learning Analytics
+- Hypermedia Discourse
+- 21st Century Learning Assessment
+- Writing Analytics and Argumentation Mining
+
 social:
 - icon: twitter
   icon_pack: fab
