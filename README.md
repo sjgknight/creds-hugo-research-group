@@ -144,6 +144,18 @@ Check out one of the markdown table generators, or use the gui rstudio approach
 Used another great tool, wowchemy publication tool to create publication pages from bibtex; may need periodic updating (or connecting to a feed) https://github.com/wowchemy/hugo-academic-cli 
 
 I obtained the bibtex from publish or perish (via google scholar), and did some minor editing in Zotero before exporting. BUT this is flawed, scholar only lets you grab the first x authors, so many pubs have ... as an author...these need fixing at some point
+  
+## Tweaks to layouts, etc.
+
+I made a number of changes to layouts to:
+
+* Add an 'acknowledgement' footer that is separate from the copyright (which is the default way to add it. This has a number of disadvantages including that it shows up in the RSS template by default, and moreover that it mis-labels a distinct recognition. For some reason I had to overwrite this blank file https://github.com/wowchemy/wowchemy-hugo-themes/wowchemy/layouts/partials/hooks/footer.html (which, I think, lets you insert a custom footer on pages. Not relevant for me), and adding to layouts/partials/site_footer.html and then add a param (acknowledgement) to the params.yaml config/_default/params.yaml 
+* I made a minor change to layouts/partials/li_compact.html (I think) for styling
+* I made changes to single.html and authors list.html for backlinks per below
+* I added main/layouts/shortcodes include_html and include_md shortcodes to transclude another file into an md (but, the other file must have an empty yaml header, or for html only tags between the body tags)
+* updated layouts/partials/widgets/hero_media.html to allow video media (with thanks to Rodri), this seems to size videos to the heading level, so the video needed to be parallel to the body-text of the widget
+* there are junk/draft edits in layouts/partials and creds-hugo-research-group/wowchemy/layouts/partials/widgets/ - these should, I think, be deleted
+
 
 ## Link gardens and back links
 I'm interested in drawing on ideas of digital gardens or link gardens, in which rather than organising by date, people navigate through starting at different points and going down different paths through connected content.  Tags and categories can do that to some degree, but it tends to always be sequential. An obvious use case in academia is wanting to show links between people <-> projects <-> publications <-> news <-> methods, etc. 
