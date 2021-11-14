@@ -6,7 +6,7 @@ authors: ["Simon Knight", "R Martinez-Maldonado", "A Gibson", "Simon Buckingham 
 publication_types: ["2"]
 abstract: ""
 featured: false
-publication: "*Proceedings of the Seventh International Learning Analytics & Knowledge łdots*"
+publication: "*Proceedings of the Seventh International Learning Analytics & Knowledge"
 doi: "10.1145/3027385.3027433"
 ---
 

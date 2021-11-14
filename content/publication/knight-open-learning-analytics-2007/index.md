@@ -6,6 +6,6 @@ authors: ["Simon Knight"]
 publication_types: ["5"]
 abstract: ""
 featured: false
-publication: "*http://www.nominettrust.org.uk/knowledge-centre/blogs/open-learning łdots*"
+publication: "*http://www.nominettrust.org.uk/knowledge-centre/blogs/open-learning"
 ---
 

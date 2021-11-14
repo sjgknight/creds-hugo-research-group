@@ -9,6 +9,11 @@ organizations:
 
 bio: Lori researches learning technology, student learning and teacher practice in school and university settings.
 
+social:
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/110cks
+
 user_groups: 
 - Honorary Associate Member
 ---

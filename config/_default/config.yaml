@@ -73,6 +73,11 @@ taxonomies:
   category: categories
   publication_type: publication_types
   author: authors
+  theme: themes
+  technology: technologies
+  region: regions
+  sector: sector
+  
 related:
   threshold: 80
   includeNewer: true

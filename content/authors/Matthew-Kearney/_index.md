@@ -9,6 +9,11 @@ organizations:
 
 bio: Matthew Kearney is an Associate Professor in Education Technology in the School of International Studies and Education.
 
+social:
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/mkearneypost
+
 interests:
 - Mobile Pedagogies
 - Teacher Professional Development

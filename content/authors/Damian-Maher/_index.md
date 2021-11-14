@@ -9,6 +9,11 @@ organizations:
 
 bio: Dr Damian Maher is a senior lecturer in the School of International Studies and Education.
 
+social:
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/damian_j_maher
+
 interests:
 - Teacher Professional Development
 - Mobile Pedagogies
