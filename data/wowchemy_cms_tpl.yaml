@@ -6,7 +6,7 @@ media_folder: 'assets/media'
 public_folder: '/media'
 collections:
   - name: home
-    label: "Homepage"
+    label: "Homepage-SK"
     folder: 'content/home'
     path: '{{slug}}'
     # When specifying a path on a folder collection, media_folder defaults to an empty string, so make it explicit.
