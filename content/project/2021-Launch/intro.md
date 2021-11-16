@@ -21,11 +21,11 @@ design:
 
 # Introduction
 
-> Learning and technology have been defining features of our global pandemic responses. 
+> Learning and technology have been defining features of global pandemic responses. 
 
-The pandemic has brought into stark relief how engagement with evidence and science, digital and social media, and public health systems intersect, to shape our views and behaviours. We've witnessed the central role of education and learning in terms of understanding gaps in knowledge, and how to support citizens to learn effectively, in order to navigate trust, truth, and knowing.  
+The pandemic has brought into stark relief how engagement with evidence and science, digital and social media, and public health systems intersect, to shape views and behaviours. We've witnessed the central role of education and learning in terms of understanding gaps in knowledge, and how to support citizens to learn effectively, to navigate trust, truth, and knowing.  
 
-Digital technologies are intertwined with this learning. They shape our education needs, how we navigate trust on social media, understand complex data, and engage with critical and creative thinking when learning and work are conducted from home. They also offer opportunities, for understanding these learning needs, sharing knowledge, building trust in communities, and technology enhanced teaching to engage with new complex information and data. That is, who we trust, and how we think about knowledge, are bound up with our learning, and intertwined with our tools.  
+Digital technologies are intertwined with this learning. They shape our education needs, how we navigate trust on social media, understand complex data, and engage with critical and creative thinking when learning and work are conducted from home. They also offer opportunities, for understanding these learning needs, sharing knowledge, building trust in communities, and technology enhanced teaching to engage with new complex information and data. That is, who we trust and how we think about knowledge are bound up with learning and intertwined with the tools we use.  
 
 ### An invitation to think with us
 
@@ -37,8 +37,9 @@ This brief gives a taster of how taking a learning and technologies perspective 
 | School sector | Galleries, libaries and museums | Technology and Edtech companies | Learning across communities and life-stages | UTS and other universities | Your organisation?                             |
 -->
 
-Below, we share some of our headline thinking, as an invitation to think with us. 
-> Our partners are across galleries, libaries and musuems; technology and edtech organisations; the primary and secondary education sector; organisations that span learning over lifestages, and across communiuties; and UTS and other universities.  
+Below, we share some of our headline thinking. 
+
+> Our partners are across galleries, libaries and musuems; technology and edtech organisations; the primary and secondary education sector; organisations that span learning over lifestages, and across communiuties; within UTS and other universities.  
 
 All of our partner contexts, and expertise, are important. We hope you’ll take up this invitation to add more voices of expertise in response to these brief provocations.  
 
