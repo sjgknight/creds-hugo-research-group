@@ -20,9 +20,9 @@ design:
 ---
 
 ## How do we model changes in learning needs for truth, trust, and knowing, through crises like pandemics? <br> How do we design for technologies to help us navigate these changing needs? 
-<div style= "float:right;margin:5px;width:50%;">{{< figure src="analytics.jpg" caption="Modeling change, Photo by <a href='https://unsplash.com/@edhoradic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Edho Pratama</a> on <a href='https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>" numbered="false" alt="Search result image for 'analytics', by Edho Pratama on Unsplash" >}}</div>
+<div style= "float:right;margin:5px;width:50%;">{{< figure src="analytics.jpg" caption="Modelling change, Photo by <a href='https://unsplash.com/@edhoradic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Edho Pratama</a> on <a href='https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>" numbered="false" alt="Search result image for 'analytics', by Edho Pratama on Unsplash" >}}</div>
 
-Through our interactions with each other, and with our technologies, we shape, and are shaped by, our changing world. This is true across learning communities, and between them, as different communities interact with and learn from each other (or don’t), and as our own different communities – professional, educational, personal – come into contact. 
+Through our interactions with each other, and with our technologies, we shape, and are shaped by, our changing world. This is true across learning communities, and between them, as different communities interact with and learn from each other (or don’t), and as different communities – professional, educational, personal – come into contact. 
 
 But how do we support people to learn across these contexts, and how do we understand existing strengths, and learning needs? To put it another way:
 > as the world around us changes, how does education keep up?  
@@ -33,11 +33,12 @@ The pandemic has highlighted the power of learning and technology, through the w
 <div style= "float:right;margin:5px;width:50%;">{{< figure src="covid-data.jpg" caption="Photo by <a href='https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Clay Banks</a> on <a href='https://unsplash.com/photos/_Jb1TF3kvsA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>" numbered="false" alt="Data visualisation of COVID-19 cases, by Clay Banks on Unsplash" >}}</div>
 
 
-The pandemic has highlighted huge variation in how people and civil society think about, and build on evidence and data. On the one hand, there has been widespread concern regarding denialism, of the seriousness of the pandemic, and around efficacy or safety of treatment and mitigation options. 
+The pandemic has highlighted huge variation in how people and civil society think about, and build on, evidence and data. On the one hand, there has been widespread concern regarding denialism, of the seriousness of the pandemic, and around efficacy or safety of treatment and mitigation options. 
 
 On the other side, the mantra “follow the science” has at times failed to acknowledge that “the science” is not a body of fixed knowledge, but a collection of human processes, testing and building theory in an iterative, evolving, and uncertain manner. 
 
 Technologies, and the ways we engage in dialogue across communities, mediate this understanding, through the ways they enable sharing of information and data, through algorithmic filtering and ranking, and tools that allow us to engage in dialogue together - more or less constructively.
+  
 > what skills and knowledge _do_ people need to navigate our digital and data mediated world?
 
 ## How do we support teachers and educators in designing for learning to learn to navigate truth, trust, and knowing through the pandemic?  
@@ -47,7 +48,7 @@ Technologies, and the ways we engage in dialogue across communities, mediate thi
 
 Teachers play a fundamental role in how society can respond to changing learning needs, and key events such as the pandemic. The pandemic has starkly highlighted that when we consider learning needs, such as how our children learn to navigate credibility, think critically, and understand the science of vaccines, we must also consider the situated context; remote learning brought about a new set of challenges, entangled with issues of truth, trust, and knowing, and tackled in tandem by teachers. 
 
-Learning from teacher practice is central to supporting teachers to support their students. By understanding, sharing, and building practices with teachers, we can co-construct technologies, and curricula that integrate with pedagogical practices. The pandemic has highlighted the crucial role of education in helping learners navigate the nature of science and variations in source and data quality. 
+Learning from teacher practice is central to supporting teachers to support their students. By understanding, sharing, and building practices with teachers, we can co-construct technologies, and curricula that integrate with pedagogical practices. The pandemic has amplified the crucial role of education in helping learners navigate the nature of science and variations in source and data quality. 
 
 To navigate information online, learners need to be able to think about information they may disagree with, and to understand the importance of corroboration, and expertise. This of course matters for our personal lives, but it is also key for active engaged citizenship and full participation in society. The pandemic has shown the potential of technologies to share knowledge, with examples of private citizens – including school students! – creating apps, sharing data, and contributing to open knowledge resources such as Wikipedia, to support people’s learning about COVID-19 cases, and mitigation.  
 > What role does digital learning play in teachers' practice? 
