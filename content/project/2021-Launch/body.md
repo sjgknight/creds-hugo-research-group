@@ -41,17 +41,17 @@ Technologies, and the ways we engage in dialogue across communities, mediate thi
   
 > what skills and knowledge _do_ people need to navigate our digital and data mediated world?
 
-## How do we support teachers and educators in designing for learning to learn to navigate truth, trust, and knowing through the pandemic?  
+## How do we support educators in designing for learning to navigate truth, trust, and knowing through the pandemic?  
 
 <div style= "float:right;margin:5px;width:50%;">{{< figure src="homeschool.jpg" caption="Home schooling, Photo by <a href='https://unsplash.com/@comparefibre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Compare Fibre</a> on <a href='https://unsplash.com/s/photos/mobile-learning?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>" numbered="false" alt="Child studying at a laptop, Photo by Compare Fibre on Unsplash" >}}</div>
 
 
 Teachers play a fundamental role in how society can respond to changing learning needs, and key events such as the pandemic. The pandemic has starkly highlighted that when we consider learning needs, such as how our children learn to navigate credibility, think critically, and understand the science of vaccines, we must also consider the situated context; remote learning brought about a new set of challenges, entangled with issues of truth, trust, and knowing, and tackled in tandem by teachers. 
 
-Learning from teacher practice is central to supporting teachers to support their students. By understanding, sharing, and building practices with teachers, we can co-construct technologies, and curricula that integrate with pedagogical practices. The pandemic has amplified the crucial role of education in helping learners navigate the nature of science and variations in source and data quality. 
+Learning from teacher practice is central to supporting teachers to support their students. By understanding, sharing, and building practices with teachers, we can co-construct curricula that integrate with new digital pedagogical practices. The pandemic has amplified the crucial role of education in helping learners navigate the nature of science and variations in source and data quality. 
 
-To navigate information online, learners need to be able to think about information they may disagree with, and to understand the importance of corroboration, and expertise. This of course matters for our personal lives, but it is also key for active engaged citizenship and full participation in society. The pandemic has shown the potential of technologies to share knowledge, with examples of private citizens – including school students! – creating apps, sharing data, and contributing to open knowledge resources such as Wikipedia, to support people’s learning about COVID-19 cases, and mitigation.  
-> What role does digital learning play in teachers' practice? 
+To navigate information online, learners need to be able to think about information they may disagree with, and to understand the importance of corroboration, and expertise. This of course matters for our personal lives, but it is also key for active engaged citizenship and full participation in society. The pandemic has shown the potential of using technologies to share knowledge, with examples of private citizens – including school students – creating apps, sharing data, and contributing to open knowledge resources such as Wikipedia, to support people’s learning about COVID-19 cases, and mitigation.  
+> What role does technology play in supporting teachers' practice? 
 
 ## Conclusion: We invite you to think together with us  
 Our learning needs are in dynamic interaction with the world around us, and we need tools to model this and measure where things are going well (and not). The pandemic has highlighted some needs, and we want to understand these, the tools we have available to tackle support for learners, teachers, and educators. 
