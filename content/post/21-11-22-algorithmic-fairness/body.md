@@ -60,7 +60,6 @@
 <p>Alongside these developments, COVID-19 has accelerated the use of algorithmic decision-making in education and beyond. </p>
 
 
-
 <p>While these innovations open up amazing possibilities, algorithms also bring with them a set of challenges we must face as a society. Examples like the UK exam algorithm expose us to how such algorithms work and the kinds of decisions that have to be made when designing them. We are then forced to answer deep questions of which values we will choose to prioritise and what <a href="https://www.nuffieldfoundation.org/wp-content/uploads/2019/12/Ethical-and-Societal-Implications-of-Data-and-AI-report-Nuffield-Foundat.pdf">roadmap for research</a> we take forward. </p>
 
 <p>Our choices will shape our future and the future of generations to come. </p>
@@ -72,3 +71,4 @@
 <p><span><a href="https://theconversation.com/profiles/kalervo-gulson-15174">Kalervo Gulson</a>, Professor and ARC Future Fellow, Education & Social Work, Education Futures Studio, <em><a href="https://theconversation.com/institutions/university-of-sydney-841">University of Sydney</a></em>; <a href="https://theconversation.com/profiles/claire-benn-963008">Claire Benn</a>, Research Fellow, Humanising Machine Intelligence Grand Challenge, <em><a href="https://theconversation.com/institutions/australian-national-university-877">Australian National University</a></em>; <a href="https://theconversation.com/profiles/kirsty-kitto-331591">Kirsty Kitto</a>, Associate Professor in Data Science, <em><a href="https://theconversation.com/institutions/university-of-technology-sydney-936">University of Technology Sydney</a></em>; <a href="https://theconversation.com/profiles/simon-knight-207447">Simon Knight</a>, Senior Lecturer and Director, Centre for Research on Education in a Digital Society, <em><a href="https://theconversation.com/institutions/university-of-technology-sydney-936">University of Technology Sydney</a></em>, and <a href="https://theconversation.com/profiles/teresa-swist-172271">Teresa Swist</a>, Postdoctoral Research Associate, Education Futures Studio, <em><a href="https://theconversation.com/institutions/university-of-sydney-841">University of Sydney</a></em></span></p>
 
 <p>This article is republished from <a href="https://theconversation.com">The Conversation</a> under a Creative Commons license. Read the <a href="https://theconversation.com/algorithms-can-decide-your-marks-your-work-prospects-and-your-financial-security-how-do-you-know-theyre-fair-171590">original article</a>.</p>
+
