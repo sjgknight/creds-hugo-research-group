@@ -2,7 +2,7 @@
 # An instance of the People widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: blank
-
+date: 2021-11-22
 # This file represents a page section.
 headless: true
 
@@ -12,6 +12,9 @@ weight: 10
 title: "Trust, Truth, and Knowing Through the Pandemic: The Digital Learning Challenge"
 
 subtitle:
+summary: "The pandemic has brought into stark relief how engagement with evidence and science, digital and social media, and public health systems intersect, to shape views and behaviours. We’ve witnessed the central role of education and learning in terms of understanding gaps in knowledge, and how to support citizens to learn effectively, to navigate trust, truth, and knowing. <br>
+
+Digital technologies are intertwined with this learning. They shape our education needs, how we navigate trust on social media, understand complex data, and engage with critical and creative thinking when learning and work are conducted from home. They also offer opportunities, for understanding these learning needs, sharing knowledge, building trust in communities, and technology enhanced teaching to engage with new complex information and data. That is, who we trust and how we think about knowledge are bound up with learning and intertwined with the tools we use."
 
 authors: ["CREDS"]
 

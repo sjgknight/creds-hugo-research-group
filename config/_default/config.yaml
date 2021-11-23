@@ -41,7 +41,7 @@ enableGitInfo: false
 summaryLength: 30
 paginate: 10
 enableEmoji: true
-enableRobotsTXT: false
+enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.R$, \.Rmarkdown$, _cache$]
 permalinks:

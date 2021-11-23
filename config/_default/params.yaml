@@ -18,6 +18,9 @@ org_name: 'UTS Centre for Research on Education in a Digital Society'
 description: Centre for Research on Education in a Digital Society.
 twitter: 'twitter.com/uts_creds'
 
+marketing:
+  google_site_verification: 'N4v5KH_sHlPe7skNP7QanfcDUnzKxlFYZS3gYYfmOBE'
+
 # Contact (edit or remove options as required)
 
 #email: test@example.org
@@ -42,6 +45,28 @@ twitter: 'twitter.com/uts_creds'
 #    icon_pack: fas
 #    name: Discuss on Forum
 #    link: 'https://discourse.gohugo.io'
+contact_links:
+  - icon: home
+    icon_pack: fas
+    name: UTS Home
+    link: 'https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society'
+  - icon: link
+    icon_pack: fas
+    name: Browse our project pages
+    link: research
+  - icon: twitter
+    icon_pack: fab
+    name: Twitter
+    link: 'https://twitter.com/UTS_CREDS'
+  - icon: linkedin
+    icon_pack: fab
+    name: Linkedin
+    link: 'https://www.linkedin.com/company/uts-centre-for-research-on-education-in-a-digital-society/'
+  - icon: youtube
+    icon_pack: fab
+    name: Youtube
+    link: 'https://www.youtube.com/channel/UCS-NaUqBaMYh9UZqbIU_tUw'
+
 
 # Site header
 

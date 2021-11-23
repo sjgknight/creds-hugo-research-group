@@ -1,5 +1,6 @@
 ---
 title: "Find out more!"
+active: false
 subtitle:
 widget: blank
 headless: true
