@@ -18,9 +18,6 @@ org_name: 'UTS Centre for Research on Education in a Digital Society'
 description: Centre for Research on Education in a Digital Society.
 twitter: 'twitter.com/uts_creds'
 
-marketing:
-  google_site_verification: 'N4v5KH_sHlPe7skNP7QanfcDUnzKxlFYZS3gYYfmOBE'
-
 # Contact (edit or remove options as required)
 
 #email: test@example.org
@@ -147,7 +144,7 @@ map:
 marketing:
   google_analytics: ''
   google_tag_manager: ''
-  google_site_verification: ''
+  google_site_verification: 'N4v5KH_sHlPe7skNP7QanfcDUnzKxlFYZS3gYYfmOBE'
   baidu_site_verification: ''
   baidu_tongji: ''
 cms:
