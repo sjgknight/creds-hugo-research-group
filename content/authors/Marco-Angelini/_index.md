@@ -1,6 +1,6 @@
 ---
 title: Marco Angelini
-avatar_filename: angelini-pic.jpg
+avatar_filename: avatar.jpg
 bio: Outreach Co-ordinator UTS, Women in Engineering and IT
 interests:
   - Mathematics Education
