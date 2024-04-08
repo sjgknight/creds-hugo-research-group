@@ -6,7 +6,7 @@ title: Simon Knight
 superuser: true
 
 # Role/position
-role: Senior Lecturer and Director of CREDS 
+role: Associate Professor 
 
 # Organizations/Affiliations
 organizations:
@@ -61,6 +61,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Director
+- Member
 ---
-Dr Simon Knight is a senior lecturer in the Transdisciplinary School, co-editor-in-chief of the Journal of Learning Analytics, and Director of CREDS. Simon researches how people find, use, and evaluate evidence. Simon has researched how people evaluate sources on socio-scientific topics, such as climate change, impacts of technology, and nutrition topics, seen through the lens of epistemic cognition. Simon is particularly interested in how educators use and evaluate evidence, including their use of learning analytics ? the use of data from learning activity, to understand and support that learning. 
+Dr Simon Knight is an academic in the Transdisciplinary School, ex-co-editor-in-chief of the Journal of Learning Analytics, and ex-Director of CREDS. Simon researches how people find, use, and evaluate evidence. Simon has researched how people evaluate sources on socio-scientific topics, such as climate change, impacts of technology, and nutrition topics, seen through the lens of epistemic cognition. Simon is particularly interested in how educators use and evaluate evidence, including their use of learning analytics ? the use of data from learning activity, to understand and support that learning. 
