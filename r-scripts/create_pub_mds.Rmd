@@ -1,0 +1,75 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+
+
+```{r setup}
+pacman::p_load(dplyr,magrittr,purrr)
+
+
+```
+
+```{r}
+# pacman::p_load_gh("mbojan/zoterro")
+
+# get_pubs <- collection_items(key="PJHH85S9", user = zotero_group_id(269768))
+# 
+# 
+#  items_bibtex <- collection_items(
+#       key="PJHH85S9", 
+#       user = zotero_group_id(269768), 
+#       query = list(format="bibtex")
+#     )
+#  
+#  
+#  save_collection(
+#   key="PJHH85S9", 
+#   path = "references.bib",
+#   user = zotero_group_id(269768)
+# )
+ 
+```
+
+```{r}
+#thanks to https://jc-castillo.com/post/zotero-academic/ 
+#source('https://raw.githubusercontent.com/juancarloscastillo/starter-hugo-academic/master/content/publication/bibtex_2academic.R')
+#usethis::use_github_file("https://github.com/achubaty/amc/blob/master/R/source_github.R", save_as = here::here("/r-scripts/source_github.R"))
+#source(here::here('r-scripts/source_github.R'))
+#pacman::p_load(httr)
+#source_github("sjgknight/creds_reporting",branch = "main", file = "/report_templates/r/name_lookup.R", auth = )
+
+source(here::here('r-scripts/process_bib.R'))
+
+bibfile <- here::here("/static/pubs-export.bib")
+out_fold <- here::here("/content/publication")
+
+#modified function to produce a df
+my_pubs <- bibtex_2academic(bibfile,out_fold, abstract = TRUE, overwrite = TRUE)
+
+#run the disambiguation script over authors (whatever that column is??)
+source('r-scripts/name_lookup.R')
+my_pubs <- my_pubs %>% mutate(authors = disambiguate(authors))
+
+#then to create the files
+apply(mypubs, FUN = function(x) create_md(x), MARGIN = 1)
+
+
+```
+
+
+
+
+```{r}
+
+library(bib2df)
+library(tidyverse)
+cites <- read_lines(here::here("static/pubs-export.bib"))
+
+cites <- disambiguate(cites)
+
+```
+
