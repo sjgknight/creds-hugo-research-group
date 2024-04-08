@@ -30,7 +30,7 @@ module:
       # Your widget's GitHub URL (replace <USERNAME> and <WIDGET-NAME> with your GitHub username and widget name)
 
   hugoVersion:
-    min: '0.95.0'
+    min: '0.89.4'
     extended: true
 
 ############################
