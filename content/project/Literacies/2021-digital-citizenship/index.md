@@ -86,10 +86,10 @@ A digital citizen is anyone using information technology (such as computers or m
 
 ### You might also like to explore
 
-{{< cite page="/project/literacies/2021-social-movements-social-media" view="" >}}
+{{< cite page="/project/literacies/2021-social-movements-social-media" view="3" >}}
 
-{{< cite page="/project/teachers/2021-justice-pedagogy" view="" >}}
+{{< cite page="/project/teachers/2021-justice-pedagogy" view="3" >}}
     
 ### Key publications include
 
-{{< cite page="/publication/harris-youth-social-cohesion-2020" view="4" >}}
+{{< cite page="/publication/harris-youth-social-cohesion-2020" view="2" >}}

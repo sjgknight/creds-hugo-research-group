@@ -70,7 +70,8 @@ We're delighted to launch the centre formally at this online panel discussion.
 
 Read more [about the centre and its history at UTS]({{< relref "/post/21-01-04-launch" >}}), and explore [our research]({{< relref "/research" >}}).
 
-Read out [launch report]({{< relref "/project/2021-launch" >}}) where we set out some of _our_ thinking around issues of credibility and trust in digital learning through the pandemic, and invite you to join the conversation. 
+Read our [launch report]({{< relref "/project/2021-launch" >}}) where we set out some of _our_ thinking around issues of credibility and trust in digital learning through the pandemic, and invite you to join the conversation. 
+
 
 ### Watch the CREDS launch event playback
 

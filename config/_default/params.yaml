@@ -4,44 +4,38 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
+# appearance:
+  # theme_day: sjgk
+  # theme_night: sjgk
+  # font: minimal
+  # font_size: L
 
-theme: sjgk
-day_night: false
-font: native
-font_size: L
+appearance:
+  theme_day: sjgk
+  theme_night: sjgk
+  font: minimal
+  font_size: L
+
 
 # SEO
 
-site_type: Organization
-local_business_type: ''
-org_name: 'UTS Centre for Research on Education in a Digital Society'
-description: Centre for Research on Education in a Digital Society.
-twitter: 'twitter.com/uts_creds'
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: 'UTS Centre for Research on Education in a Digital Society'
+    description: Centre for Research on Education in a Digital Society.
+    twitter: 'uts_creds'
+  analytics:
+    google_analytics: ''
+    google_tag_manager: ''
+    baidu_tongji: ''
+  verification:
+    google: 'l_D36gmJ22q6Tvg3_XcLwsmU1HIJS1McWSj3l7y3bp8'
+    baidu: ''  
 
 # Contact (edit or remove options as required)
 
-#email: test@example.org
-#phone: 888 888 88 88
-#address:
-#  street: 450 Serra Mall
-#  city: Stanford
-#  region: CA
-#  postcode: '94305'
-#  country: United States
-#  country_code: US
-#coordinates:
-#  latitude: '37.4275'
-#  longitude: '-122.1697'
-#directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-#office_hours:
-#  - 'Monday 10:00 to 13:00'
-#  - 'Wednesday 09:00 to 10:00'
-#appointment_url: 'https://calendly.com'
-#contact_links:
-#  - icon: comments
-#    icon_pack: fas
-#    name: Discuss on Forum
-#    link: 'https://discourse.gohugo.io'
 contact_links:
   - icon: home
     icon_pack: fas
@@ -67,14 +61,15 @@ contact_links:
 
 # Site header
 
-main_menu:
-  enable: true
-  align: r
-  show_logo: true
-  show_language: false
-  show_day_night: true
-  show_search: true
-  highlight_active_link: false
+header:
+  navbar:
+    enable: true
+    align: r
+    show_logo: true
+    show_language: false
+    show_day_night: false
+    show_search: true
+    highlight_active_link: false
 
 # Localization
 
@@ -96,63 +91,102 @@ show_related:
 reading_time: true
 section_pager: false
 sharing: true
-copyright_license:
-  enable: false
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
-  notice: 'This work is licensed under {license}'
+
+# Site footer
+footer:
+  copyright:
+    notice: '© {year} CREDS. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
 acknowledgement:
   enable: true
   notice: 'CREDS members acknowledge the Gadigal people of the Eora Nation, upon whose ancestral lands our university stands. We would also like to pay respect to the Elders both past and present, acknowledging them as the traditional custodians of knowledge for these lands.'
-plugins_js: []
-avatar:
-  gravatar: false
-  shape: circle
-publications:
-  date_format: January 2006
-  citation_style: apa
-projects:
-  post_view: 2
-  publication_view: 2
-  talk_view: 2
-comments:
-  provider: ''
-  commentable:
-    page: true
-    post: true
-    docs: true
-    project: true
-    publication: true
-    talk: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: ''
-search:
-  provider: wowchemy
-  algolia:
-    app_id: ''
+
+# Site features
+
+features:
+  syntax_highlighter:
+    enable: false
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapnik'
     api_key: ''
-    index_name: ''
-    show_logo: false
-map:
-  provider: mapnik
-  api_key: ''
-  zoom: 15
-marketing:
-  google_analytics: ''
-  google_tag_manager: ''
-  google_site_verification: 'l_D36gmJ22q6Tvg3_XcLwsmU1HIJS1McWSj3l7y3bp8'
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  branch: main
-  local_backend: false
+    zoom: 15
+
+# Extensions
+
+extensions:
+  decap_cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
 # cms:
 #   branch: build
 #   local_backend: false
-icon:
-  pack:
-    ai: true
+
+# Citation style
+
+publications:
+  date_format: January 2006
+  citation_style: apa
+
+#email: test@example.org
+#phone: 888 888 88 88
+#address:
+#  street: 450 Serra Mall
+#  city: Stanford
+#  region: CA
+#  postcode: '94305'
+#  country: United States
+#  country_code: US
+#coordinates:
+#  latitude: '37.4275'
+#  longitude: '-122.1697'
+#directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+#office_hours:
+#  - 'Monday 10:00 to 13:00'
+#  - 'Wednesday 09:00 to 10:00'
+#appointment_url: 'https://calendly.com'
+#contact_links:
+#  - icon: comments
+#    icon_pack: fas
+#    name: Discuss on Forum
+#    link: 'https://discourse.gohugo.io'

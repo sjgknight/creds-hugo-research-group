@@ -2,27 +2,44 @@
 name = "sjgk"
 
 # Is theme light or dark?
-is_light = true
+[light]
 
-# Primary
-primary = "#707070"
+  # Primary
+  primary = "#f8f9fa" #off-white primary
 
-# Menu
-menu_primary = "#0f4beB"  #bold blue
-menu_text = "#ffffff" #white
-menu_text_active = "#ffffff"
-menu_title = "#ffffff"
+  # Menu
+  menu_primary = "#0f4beB"  #bold blue
+  menu_text = "#ffffff" #white
+  menu_text_active = "#ffffff"
+  menu_title = "#ffffff"
 
-# Links
-link = "#0f4beB"
-link_hover = "#0f4beB"
-link_decoration = "underline"
+  # Links
+  link = "#0f4beB"
+  link_hover = "#0f4beB"
+  link_decoration = "underline"
 
-# Home sections
-home_section_odd = "#ffffff"
-home_section_even = "#f5f4f5"
+  # Home sections
+  home_section_odd = "#ffffff"
+  home_section_even = "#f5f4f5"
 
-font = "minimal"
+[dark]
+
+  primary = "#707070" #Grey primary
+
+  # Menu
+  menu_primary = "#0f4beB"  #bold blue
+  menu_text = "#ffffff" #white
+  menu_text_active = "#ffffff"
+  menu_title = "#ffffff"
+
+  # Links
+  link = "#0f4beB"
+  link_hover = "#0f4beB"
+  link_decoration = "underline"
+
+  # Home sections
+  home_section_odd = "#ffffff"
+  home_section_even = "#f5f4f5"
 
 # ATtempt to change link button targeting the class. Fixing 'primary' above addressed it
 #btn-outline-primary = "ff2305"
@@ -63,3 +80,4 @@ font = "minimal"
 #color(green) uses the color: #32cd32
 #color(orange) uses the color: #f09d38
 #color(off white) uses the color: #fcfcfb
+
