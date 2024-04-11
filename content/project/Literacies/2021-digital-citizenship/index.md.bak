@@ -1,0 +1,95 @@
+---
+#main title is required
+title: "Youth Global Digital Citizenship" 
+
+#You can also include a subtitle
+subtitle: "Diasporic youth in a connected world"
+
+#If you want the summary to be something other than the first paragraph, put one in here. 
+summary:
+
+#show the date for the page, set show_date to false to hide this
+date: 2021-08-03
+
+#true by default
+show_date:
+
+#wont show in lists if set to true
+draft: false
+
+#can be used to highlight content in various places
+featured: true
+
+# Featured image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  filename: featured
+  placement: 1
+  caption: "Photo by Marvin Meyer on Unsplash"
+  focal_point: "Center"
+  preview_only: true
+  alt_text: "Photo of assorted computers and mobile devices with people sat around  table"
+
+#if the page is a link to another page use this (generally use the links below instead)
+external_link: 
+
+#use this structure to add call to action links at the top of the page. No more than 2 or it looks poor
+links:
+  - icon_pack: fas
+    icon: arrow-alt-circle-left
+    name: View all our research
+    url: '/research'
+  - icon_pack: fas
+    icon: eye
+    name: More on project site
+    url: 'https://youthdigitalcitizenship.com/'
+
+#add authors itll auto link to ones with profiles. Use comma separated in squares like this
+#you can also add partner organisations here (give them that role in the author page)
+#and UTS-collaborators external-collaborators industry-collaborators (same thing)
+authors: ["Amelia Johns", "ARC"]
+
+#add categories from options: news, illustrations, learn, resources, methods
+#to create a method page create a tag first and then add the category method to the tag
+categories: 
+  - 
+
+#add tags you can use like categories or like authors. Tags might cover
+#technology, including: learning-analytics, mobile-technologies, 
+#country or region, including: 
+#sector, including: HE, schools, industry, GLAM, lifelong-learning 
+#pedagogy and practice, including: sociocultural-theory, dialogic-learning, CSCL, active-learning, reflection
+#content, including: recognition, funding, 
+#theme which are: Change-Design, Literacies, Data-literacy, Teachers
+tags: 
+  - Literacies
+  - schools
+  - citizenship
+  - social-media
+  - digital-citizenship
+  - 
+
+---
+
+Led by Amelia Johns (at UTS) the ARC Discovery project, _Fostering Global Digital Citizenship: Diasporic Youth in a Connected World_, aims to understand how young Australians think about and express their digital citizenship in secondary school classes and in their everyday digital and social media use. The research will help us better understand and improve the relationship between policy, learning material and young people’s online digital media use and practices. The project is in collaboration with CIs Anita Harris, Jessica Walton, Gilbert Caluya from Deakin University.
+
+The focus has been on developing benchmark knowledge of migrant and refugee young people’s everyday digital civic and political practices across selected schools and communities in NSW and Victoria. It aims to draw on this knowledge to inform the development of more inclusive digital citizenship programs and resources (for use in schools) that not only address concerns around digital safety and risk for marginalised communities, but which acknowledge and foster the literacies, skills, voice-making and rights claims of young people who are engaged in local and international digital communities of practice and learning, and who express multiple and overlapping identities and obligations through their digital practices. It will explore how these practices may enhance self-esteem, resilience and connect communities through informal networks.  
+
+Young people aged 15 to 24 are ‘the most connected age group in the world’ (UNESCO, 2019:18). Understandably, there are fears and anxieties about young people’s online activities in relation to online bullying and harassment, worry about accessing inappropriate content online, and online radicalisation. Because of these fears, there has been a lot of emphasis on young people’s negative online activities. But we know from more recent research that there is also a positive relationship between young people’s ‘everyday’ use of digital and social media and civic engagement, political activism, and anti-racist action that can also provide a sense of belonging, global community and connectedness. We need to balance these approaches to enhance digital citizenship learning.
+
+A digital citizen is anyone using information technology (such as computers or mobile phones) to access social media, apps, games and other software for entertainment, information seeking, communication and to engage with their social networks and the wider society. Schools are increasingly developing digital citizenship curriculum to help students navigate opportunities and risks associated with digital participation. For our project, we are interested in learning more about how young people use digital media both at school and outside of school in everyday spaces, such as at home. It is important that young people’s experiences and perspectives inform future initiatives such as developing school curriculum and government policy about digital citizenship.
+
+{{< cta cta_text="Explore the project site to find out more" cta_link="https://youthdigitalcitizenship.com/" cta_new_tab="true" >}}
+
+### You might also like to explore
+
+{{< cite page="/project/literacies/2021-social-movements-social-media" view="compact" >}}
+
+{{< cite page="/project/teachers/2021-justice-pedagogy" view="compact" >}}
+    
+### Key publications include
+
+{{< cite page="/publication/harris-youth-social-cohesion-2020" view="4" >}}

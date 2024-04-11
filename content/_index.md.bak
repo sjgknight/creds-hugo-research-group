@@ -1,0 +1,59 @@
+---
+# Leave the homepage title empty to use the site title
+title:
+date: 2022-10-24
+type: landing
+
+sections:
+  - block: hero # _media
+    content:
+      title: |
+        UTS Centre for Research on Education in a Digital Society (UTS:CREDS)
+      hero_media:
+	    src: youtube
+		id: SPG_PrO0ocE
+	  text: |
+        <br>
+        We explore the dynamic relationship between technology and learning – across formal, informal, and professional education contexts throughout the lifespan.  <br> Our research interrogates the new ways in which technologies enhance learning, and the changing learning needs of a digital society.
+  
+  - block: collection
+    content:
+      title: Latest News
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: card
+      columns: '1'
+  
+  - block: markdown
+    content:
+      title: Find out more...
+      subtitle:
+      text: |
+        {{% cta cta_link="./research/" cta_text="Find out more about our work →" %}} <br> {{% cta cta_text="Visit our UTS homepage →" cta_link="https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society" %}} <br> {{% cta cta_link="./people/" cta_text="Meet the team →" %}}	
+    design:
+      columns: '2'
+
+---
+
+ 
+ isit our official UTS page; browse our project pages, news, and authors on this site; or follow us on twitter, linkedin, or youtube.
+
+          youtube:
+    id: "SPG_PrO0ocE" 
+	
+	UTS Home
+Browse our project pages
+Twitter
+Linkedin
+Youtube

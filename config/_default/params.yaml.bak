@@ -1,0 +1,192 @@
+# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+# appearance:
+  # theme_day: sjgk
+  # theme_night: sjgk
+  # font: minimal
+  # font_size: L
+
+appearance:
+  theme_day: sjgk
+  theme_night: sjgk
+  font: minimal
+  font_size: L
+
+
+# SEO
+
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: 'UTS Centre for Research on Education in a Digital Society'
+    description: Centre for Research on Education in a Digital Society.
+    twitter: 'uts_creds'
+  analytics:
+    google_analytics: ''
+    google_tag_manager: ''
+    baidu_tongji: ''
+  verification:
+    google: 'l_D36gmJ22q6Tvg3_XcLwsmU1HIJS1McWSj3l7y3bp8'
+    baidu: ''  
+
+# Contact (edit or remove options as required)
+
+contact_links:
+  - icon: home
+    icon_pack: fas
+    name: UTS Home
+    link: 'https://www.uts.edu.au/research-and-teaching/our-research/centre-research-education-digital-society'
+  - icon: link
+    icon_pack: fas
+    name: Browse our project pages
+    link: research
+  - icon: twitter
+    icon_pack: fab
+    name: Twitter
+    link: 'https://twitter.com/UTS_CREDS'
+  - icon: linkedin
+    icon_pack: fab
+    name: Linkedin
+    link: 'https://www.linkedin.com/company/uts-centre-for-research-on-education-in-a-digital-society/'
+  - icon: youtube
+    icon_pack: fab
+    name: Youtube
+    link: 'https://www.youtube.com/channel/UCS-NaUqBaMYh9UZqbIU_tUw'
+
+
+# Site header
+
+header:
+  navbar:
+    enable: true
+    align: r
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: false
+
+# Localization
+
+date_format: 'Jan 2, 2006'
+time_format: '3:04 PM'
+address_format: en-us
+
+# Site features
+
+highlight: false
+math: false
+diagram: false
+privacy_pack: true
+show_related:
+  post: true
+  project: true
+  publication: true
+  talk: true
+reading_time: true
+section_pager: false
+sharing: true
+
+# Site footer
+footer:
+  copyright:
+    notice: '© {year} CREDS. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+acknowledgement:
+  enable: true
+  notice: 'CREDS members acknowledge the Gadigal people of the Eora Nation, upon whose ancestral lands our university stands. We would also like to pay respect to the Elders both past and present, acknowledging them as the traditional custodians of knowledge for these lands.'
+
+# Site features
+
+features:
+  syntax_highlighter:
+    enable: false
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
+
+# Extensions
+
+extensions:
+  decap_cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+# cms:
+#   branch: build
+#   local_backend: false
+
+# Citation style
+
+publications:
+  date_format: January 2006
+  citation_style: apa
+
+#email: test@example.org
+#phone: 888 888 88 88
+#address:
+#  street: 450 Serra Mall
+#  city: Stanford
+#  region: CA
+#  postcode: '94305'
+#  country: United States
+#  country_code: US
+#coordinates:
+#  latitude: '37.4275'
+#  longitude: '-122.1697'
+#directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+#office_hours:
+#  - 'Monday 10:00 to 13:00'
+#  - 'Wednesday 09:00 to 10:00'
+#appointment_url: 'https://calendly.com'
+#contact_links:
+#  - icon: comments
+#    icon_pack: fas
+#    name: Discuss on Forum
+#    link: 'https://discourse.gohugo.io'

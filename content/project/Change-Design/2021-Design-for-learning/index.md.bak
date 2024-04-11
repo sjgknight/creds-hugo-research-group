@@ -1,0 +1,49 @@
+---
+title: Design for Learning
+date: 2021-08-03
+draft: false
+featured: true
+external_link: 
+image:
+  filename: featured
+  focal_point: Smart
+  preview_only: true
+  caption: ""
+  alt_text: "Screenshot of course brochure of learning design graduate certificate" 
+
+links:
+  - icon_pack: fas
+    icon: arrow-alt-circle-left
+    name: View all our research
+    url: '/research'
+
+authors: ["Keith Heggart","Lori Lockyer","Simon Knight","Kirsty Kitto","Camille Dickson-Deane","Lauren Knussen"]
+tags: 
+  - Change-Design
+  - design-for-learning
+  - HE
+  - schools
+  - lifelong-learning
+  - industry
+  - GLAM
+
+---
+
+A body of our work has been on the design of learning environments to support learning, drawing on technology both in the design process, and to enhance the learning environments.
+
+Watch Keith introduce our course on learning design:
+{{< youtube UmF-cOcnVWQ >}}
+
+{{< cta cta_text="Find out more about our Graduate Certificate in Learning Design" cta_link="https://www.uts.edu.au/study/find-a-course/graduate-certificate-learning-design" cta_new_tab="true" >}}
+
+
+With colleagues Bennett (Wollongong), and Agostinho, Lockyer has developed a range of analyses of how teachers learn to design, and supports for this. You can find out more about these projects at the Learning Design Research site.
+
+{{< cta cta_text="Visit Lockyer et al's Learning Design Research site" cta_link="https://learningdesignresearch.wordpress.com/" cta_new_tab="true" >}}
+
+
+### We have also applied this work in our learning analytics projects
+
+{{< cite page="/project/change-design/2021-Literacies-AcaWriter" view="compact" >}}
+
+{{< cite page="/project/change-design/2021-TRACK" view="compact" >}}
