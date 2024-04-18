@@ -1,0 +1,123 @@
+{{/* Hugo Blox: Hero */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $bg := $block.design.background }}
+
+{{ if $block.content.hero_media.src }}
+
+<div class="row">
+  <div class="col-12 col-md-6 text-center text-md-left">
+{{ end }}
+
+    {{ with $block.content.title }}
+      <h1 class="hero-title">{{ . | markdownify }}</h1>
+    {{ end }}
+	
+</div>
+</div>
+<div class="row">
+  <div class="col-12 col-md-6 text-center text-md-left">
+
+	{{ with $block.content.text }}
+      <div class="hero-lead">{{ . | $page.RenderString | emojify }}</div>
+    {{ end }}
+
+   {{/* Call-to-action link */}}
+    {{ if $block.content.cta.url }}
+      {{ $pack := or $block.content.cta.icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
+      {{ $link := $block.content.cta.url }}
+      {{ $scheme := (urls.Parse $link).Scheme }}
+      {{ $target := "" }}
+      {{ if not $scheme }}
+        {{ $link = $link | relLangURL }}
+      {{ else if in (slice "http" "https") $scheme }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ end }}
+    <p class="cta-btns">
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg mb-md-1">{{ if $block.content.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $block.content.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $block.content.cta.label | markdownify | emojify | safeHTML }}</a>
+
+      {{/* Alternative Call-to-action link */}}
+      {{ if $block.content.cta_alt.url }}
+        {{ $link := $block.content.cta_alt.url }}
+        {{ $scheme := (urls.Parse $link).Scheme }}
+        {{ $target := "" }}
+        {{ if not $scheme }}
+          {{ $link = $link | relLangURL }}
+        {{ else if in (slice "http" "https") $scheme }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt btn-lg pl-md-4">{{ $block.content.cta_alt.label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
+      {{ end }}
+    </p>
+    {{ end }}
+
+    {{/* Call-to-action note */}}
+    {{ with $block.content.cta_note }}
+    <p class="hero-note text-muted mb-3 mb-md-1">
+      {{ .label | markdownify | emojify | safeHTML }}
+    </p>
+    {{ end }}
+
+
+  {{/* Hero media */}}
+{{ if $block.content.hero_media.src }}
+  </div>
+ <!--in the below I removed   
+   <div class="col-12 mx-auto col-md-6 {{if $page.Params.design.flip}}order-md-first{{end}} hero-media" > -->
+ <div class="col-12 mx-auto col-md-6">
+    {{- $asset := ($page.Parent.Resources).GetMatch $block.content.hero_media.src -}}
+    {{- if not $asset -}}
+      {{- $asset = resources.Get (path.Join "media" $block.content.hero_media.src) -}}
+    {{- end -}}
+    {{ if $asset }}
+      {{ $isSVG := eq $asset.MediaType.SubType "svg" }}      
+      {{ $isVIDEO := eq $asset.MediaType.MainType "video" }}      
+      {{ if $isSVG -}}
+
+        <img src="{{ $asset.RelPermalink }}" alt="{{ $page.Title }}">
+
+      {{- else if $isVIDEO -}}
+
+        <video width="100%" height="auto" playsinline="" preload="auto" {{if $block.content.hero_media.loop}}loop=""{{end}} {{if $block.content.hero_media.muted}}muted=""{{end}} {{if $block.content.hero_media.autoplay}}autoplay=""{{end}} tabindex="-1" {{if $page.Params.hero_media.controls}}controls{{end}}>
+          <source src="{{ $asset.RelPermalink }}" type="video/{{$asset.MediaType.SubType}}">            
+          Your browser does not support the video tag.
+        </video>                
+
+      {{- else }}
+
+        {{ $legacy_img := $asset.Resize "400x" }}
+        {{ $img_src := "" }}
+        {{ $img_src_set := slice }}
+        {{ $widths := slice 1200 800 400 }}
+
+        {{ range $widths }}
+          {{ $src_link := ($asset.Resize (printf "%dx" .)).RelPermalink }}
+          {{ if eq $img_src "" }}
+            {{ $img_src = $src_link }}
+          {{ end }}
+          {{ $img_src_set = $img_src_set | append (printf "%s %dw" $src_link .) }}
+        {{ end }}
+        {{ $img_src_set = delimit $img_src_set "," }}
+
+        <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $asset.Width }}" height="{{ $asset.Height }}" alt="{{ $page.Title }}">
+      {{ end }}
+    {{ else }}
+      {{ if eq $block.content.hero_media.src "youtube" }}
+        <iframe src="https://www.youtube-nocookie.com/embed/{{$block.content.hero_media.youtube.id}}{{if $block.content.hero_media.autoplay}}?autoplay=1{{end}}{{if $block.content.hero_media.muted}}&mute=1{{end}}{{if $block.content.hero_media.loop}}&loop=1{{end}}" width="100%" height="100%" frameborder="0" allowFullScreen></iframe>
+      {{ else if eq  $block.content.hero_media.src "vimeo" }}
+
+        <iframe src="http://player.vimeo.com/video/{{$block.content.hero_media.vimeo.id}}{{if $block.content.hero_media.autoplay}}?autoplay=1{{end}}{{if $block.content.hero_media.muted}}&muted=1{{end}}{{if $block.content.hero_media.loop}}&loop=1{{end}}" width="100%" height="100%" frameborder="0" allowFullScreen></iframe>
+
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
