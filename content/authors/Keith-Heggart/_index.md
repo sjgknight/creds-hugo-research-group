@@ -14,7 +14,6 @@ interests:
 - Learning Design
 - Learning Analytics
 - Citizenship Education 
-- Critical and Creative Thinking
 
 social:
 - icon: twitter
