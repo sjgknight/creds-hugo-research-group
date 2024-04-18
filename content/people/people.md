@@ -21,6 +21,7 @@ content:
   - Associate Member
   - Honorary Associate Member
   - Higher Degree Research Student
+  - Past Member
   - Administration
   - Visitors
   - Alumni
