@@ -1,5 +1,6 @@
 ---
 title: Camille Dickson-Deane
+role: "Senior Lecturer "
 bio: Camille is a Senior Lecturer in Higher Education Learning Design in the
   Faculty of Science.
 social:
