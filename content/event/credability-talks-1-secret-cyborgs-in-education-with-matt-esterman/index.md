@@ -16,7 +16,7 @@ abstract: >-
 
 
   This event is aimed at early career teachers and initial teacher education students, although everyone is welcome. 
-location: "Online. More information here: "
+location: "Online. "
 date: 2024-05-07T19:00:00.000Z
 date_end: 2024-05-07T20:00:00.000Z
 all_day: false
