@@ -33,3 +33,5 @@ image:
   focal_point: Smart
   preview_only: false
 ---
+
+Join us for our first talk in a new series!
