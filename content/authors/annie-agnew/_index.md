@@ -1,7 +1,7 @@
 ---
 title: Annie Agnew
 role: Professional Learning
-avatar_filename: photo.jpeg
+avatar_filename: avatar.jpg
 bio: Mobile learning, educational technology
 social: []
 organizations:
