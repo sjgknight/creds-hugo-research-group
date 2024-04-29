@@ -1,6 +1,7 @@
 ---
 title: Ian Farmer
 role: Casual Academic
+avatar_filename: avatar.jpg
 bio: "Ian Farmer is a casual academic and research student. "
 social: []
 organizations:
