@@ -4,6 +4,8 @@ role: Senior Lecturer Pharmacy
 avatar_filename: avatar.jpg
 bio: Dr Helen Benson is an experienced consultant pharmacist who works as a
   lecturer in Pharmacy Practice and Therapeutics.
+interests:
+  - Learning design
 social: []
 organizations:
   - name: UTS
