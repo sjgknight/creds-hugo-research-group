@@ -1,7 +1,7 @@
 ---
 title: Dewi Wahyu Mustikasari
 role: Lecturer
-bio: Dewi is a research student in the Faculty of Arts and Social Sciences.
+bio: Dewi is a researcher from Saratoga, Indonesia
 organizations:
   - name: UTS
     url: null
