@@ -36,7 +36,7 @@ links:
     name: Get tickets (free)
 event: CREDability talks 2
 event_url: https://events.humanitix.com/credability-talks-2-human-education-for-a-generative-ai-world
-publishDate: 2024-04-29T14:21:00.000Z
+publishDate: 2024-04-29T14:23:00.000Z
 draft: false
 featured: false
 image:
