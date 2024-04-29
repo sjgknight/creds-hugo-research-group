@@ -1,11 +1,17 @@
 ---
-title: "CREDability Talks 2: Human Education for a Generative AI world with Dr
+title: "CREDability talks 2: Human Education for a Generative AI world with Dr
   Sophie Fenton"
 abstract: >-
-  Human Education for a Generative AI world   
-
-
-  Emerging intelligent technologies are and will increasingly have a significant impact on how we learn and work as human beings in a mixed and immersive world. In this session for school leaders, Sophie draws on a unique blend of pedagogy, workplace trends and AI ethics to explore why humanness in education matters through a blend of ethical dilemmas and workplace trends. During the session, you will also learn about how we can teach for humanness through education approaches. In this interactive session, school leaders will engage with some key questions for our times: what does it mean to be human in an AI world? How do we educate today’s learners for thriving as humans in an AI workplace?  
+  Emerging intelligent technologies are and will increasingly have a significant
+  impact on how we learn and work as human beings in a mixed and immersive
+  world. In this session for school leaders, Sophie draws on a unique blend of
+  pedagogy, workplace trends and AI ethics to explore why humanness in education
+  matters through a blend of ethical dilemmas and workplace trends. During the
+  session, you will also learn about how we can teach for humanness through
+  education approaches. In this interactive session, school leaders will engage
+  with some key questions for our times: what does it mean to be human in an AI
+  world? How do we educate today’s learners for thriving as humans in an AI
+  workplace?  
 
 
   Session focuses: 
@@ -36,7 +42,7 @@ links:
     name: Get tickets (free)
 event: CREDability talks 2
 event_url: https://events.humanitix.com/credability-talks-2-human-education-for-a-generative-ai-world
-publishDate: 2024-04-29T14:23:00.000Z
+publishDate: 2024-04-22T00:23:00.000Z
 draft: false
 featured: false
 image:
