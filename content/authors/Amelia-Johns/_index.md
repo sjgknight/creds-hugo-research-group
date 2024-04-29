@@ -1,7 +1,7 @@
 ---
 title: Amelia Johns
 role: Associate Professor
-avatar_filename: avatar.jpeg
+avatar_filename: avatar.jpg
 bio: Amelia Johns is an Associate Professor in Digital and Social Media.
 social:
   - icon: twitter
