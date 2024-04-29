@@ -17,8 +17,8 @@ abstract: >-
 
   This event is aimed at early career teachers and initial teacher education students, although everyone is welcome. 
 location: "Online. "
-date: 2024-05-08T19:00:00.000Z
-date_end: 2024-05-08T20:00:00.000Z
+date: 2024-05-21T19:00:00.000Z
+date_end: 2024-05-21T20:00:00.000Z
 all_day: false
 links:
   - url: https://events.humanitix.com/credability-talks-1-secret-cyborgs-in-education-with-matt-esterman
