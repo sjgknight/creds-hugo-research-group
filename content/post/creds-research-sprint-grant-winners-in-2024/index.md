@@ -1,7 +1,7 @@
 ---
 title: CREDS Research Sprint Grant Winners in 2024
 subtitle: ""
-date: 2013-05-12
+date: 2024-04-22T14:31:00.000Z
 summary: ""
 draft: false
 featured: false
