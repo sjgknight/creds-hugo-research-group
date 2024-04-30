@@ -14,6 +14,8 @@ draft: false
 featured: false
 authors:
   - Camille Dickson-Deane
+tags:
+  - news
 categories:
   - news
 image:
