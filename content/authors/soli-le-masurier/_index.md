@@ -9,6 +9,4 @@ superuser: false
 user_groups:
   - Associate Member
 ---
-I currently work designing digital, virtual and blended learning experiences. I've spent several years at a global professional services firm where digital learning was built in authoring tools and delivered via a custom-built LXP to thousands of employees each year.
-
-My previous professional experience in chemical engineering and then science research helps me understand and respond to challenges using evidence-informed and data-driven approaches. Additionally, my interest in digital user experience also informs the development of my solutions. I currently teach in the UTS Master of Education (Learning and Leadership) with a focus on digital learning and research practices.
+I currently work designing digital, virtual and blended learning experiences. I've spent several years at a global professional services firm where digital learning was built in authoring tools and delivered via a custom-built LXP to thousands of employees each year. Previously I studied and worked in chemical engineering and then science research during which I found my passion for higher education teaching and learning. Additionally, I have a great interest in using my own digital user experience to consider new ways of designing digital learning. I currently teach in the UTS Master of Education (Learning and Leadership) with a focus on digital learning and research practices.
