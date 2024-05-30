@@ -1,7 +1,7 @@
 ---
 title: Andrea Stringer
 role: Researcher
-avatar_filename: avatar.jpg
+avatar_filename: avatar.jpeg
 bio: Andrea Stringer is a researcher end educator
 interests:
   - Coaching
