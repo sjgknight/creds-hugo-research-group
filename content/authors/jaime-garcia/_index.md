@@ -13,7 +13,7 @@ organizations:
     url: https://profiles.uts.edu.au/Jaime.Garcia
 superuser: false
 user_groups:
-  - Member
+  - Associate Member
 ---
 Jaime Garcia is a Senior Lecturer from the School of Computer Science and the director of the UTS Games Studio Research Lab.
 
