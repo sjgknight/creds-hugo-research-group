@@ -7,7 +7,11 @@ bio: "Dr Amara Atif is a Lecturer (equivalent to an Assistant Professor in the
   Computer Science within the Faculty of Engineering and IT, University of
   Technology Sydney, Australia. "
 interests:
-  - Educational technology
+  - Educational Technology
+  - Design of Technology-Enhanced Learning Environments
+  - Human-Computer Interaction (HCI)
+  - Artificial Intelligence in Education (AIED)
+  - Learning Analytics
 social: []
 organizations:
   - name: UTS
