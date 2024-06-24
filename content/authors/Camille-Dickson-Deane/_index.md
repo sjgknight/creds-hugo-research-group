@@ -3,10 +3,13 @@ title: Camille Dickson-Deane
 role: "Senior Lecturer "
 bio: Camille is a Senior Lecturer in Higher Education Learning Design in the
   Faculty of Science.
-social:
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/ameliajohns13
+interests:
+  - pedagogical usability
+  - individual differences
+  - culture
+  - contextual design
+  - digitised learning and performance
+social: []
 organizations:
   - name: UTS
     url: https://profiles.uts.edu.au/Camille.Dickson-Deane/
