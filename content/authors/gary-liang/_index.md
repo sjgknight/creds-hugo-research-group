@@ -12,7 +12,7 @@ social: []
 organizations: []
 superuser: false
 user_groups:
-  - Member
+  - Associate Member
 ---
 Gary Liang is the Founder, CEO & CTO of Bloom AI, an AI platform for universities and high schools. He has an academic background in economics and pure mathematics from UNSW.
 
