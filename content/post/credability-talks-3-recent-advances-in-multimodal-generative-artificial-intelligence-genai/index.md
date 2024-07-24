@@ -2,7 +2,7 @@
 title: "CREDAbility Talks 3: Recent advances in multimodal Generative Artificial
   Intelligence (GenAI) "
 subtitle: with Leon Furze
-date: 2024-07-25T07:34:00.000Z
+date: 2024-07-23T17:34:00.000Z
 draft: false
 featured: false
 authors:
