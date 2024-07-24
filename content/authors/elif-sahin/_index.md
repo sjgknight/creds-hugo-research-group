@@ -7,7 +7,7 @@ bio: Elif is the Educational Designer at the University of Sydney's National
   studies, with a focus on inclusive, student-centered course design and
   interests in learning analytics and AI in education.
 interests:
-  - "- Cultural competence and AI"
+  - Cultural competence and AI
   - Learning analytics
   - Multimodal learning with technologies
 social: []
