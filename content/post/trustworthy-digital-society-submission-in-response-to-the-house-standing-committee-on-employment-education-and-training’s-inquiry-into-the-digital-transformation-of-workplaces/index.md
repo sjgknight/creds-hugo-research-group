@@ -4,7 +4,7 @@ title: Trustworthy Digital Society submission in response to the  House Standing
   Transformation of Workplaces
 subtitle: "CREDS members were part of the team that were called as witnesses to
   this committee. "
-date: 2024-07-29T10:16:00.000Z
+date: 2024-07-26T20:16:00.000Z
 draft: false
 featured: false
 authors:
