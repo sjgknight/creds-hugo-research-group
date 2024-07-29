@@ -1,7 +1,7 @@
 ---
 title: Conversational AI as Digital Teacher
 subtitle: CREDS Research Check in
-date: 2024-07-29T08:57:00.000Z
+date: 2024-07-25T18:57:00.000Z
 draft: false
 featured: false
 authors:
