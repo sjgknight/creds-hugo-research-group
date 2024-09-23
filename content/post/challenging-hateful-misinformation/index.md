@@ -1,7 +1,7 @@
 ---
 title: Challenging Hateful Misinformation
 subtitle: A Researcher’s Perspective on Educational Strategies
-date: 2024-09-23T11:00:00.000Z
+date: 2024-09-22T21:00:00.000Z
 draft: false
 featured: false
 image:
