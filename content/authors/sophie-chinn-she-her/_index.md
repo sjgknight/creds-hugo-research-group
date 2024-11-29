@@ -11,7 +11,7 @@ social: []
 organizations: []
 superuser: false
 user_groups:
-  - HDR Student
+  - Higher Degree Research Student
 ---
 Sophie is Doctor of Philosophy (PhD) candidate in Engineering Education Research (EER) in the Faculty of Engineering and IT. As a fresh graduate in Systems Engineering (Hons), Sophie researches how engineering students perceive the holistic degree learning outcomes, including the graduate attributes and Engineers Australia competencies. Her research interests are student-informed feedback, accreditation, and implementation of intended learning outcomes.
 
