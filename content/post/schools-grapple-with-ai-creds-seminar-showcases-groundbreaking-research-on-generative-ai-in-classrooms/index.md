@@ -15,7 +15,7 @@ Dr. Sukovic shared findings from her year-long research project on the use of ge
 
 Through interviews, focus groups, and professional development observations, the study revealed five broad approaches to AI adoption in schools—from cautious planning and policy writing to enthusiastic, unstructured use at the grassroots level. Interestingly, only a few schools had fully structured strategies, while many were still testing the waters.
 
-Dr. Sugavich highlighted how AI is already supporting teachers in unexpected ways—from writing reports and lesson plans to helping craft sensitive communications with parents. “Some teachers see AI as a kind of emotional support,” she noted, describing it as a digital ‘buddy’ when crafting challenging messages. Other practical uses include differentiating learning materials, generating quizzes, and creating adaptive learning experiences.
+Dr. Sukovic highlighted how AI is already supporting teachers in unexpected ways—from writing reports and lesson plans to helping craft sensitive communications with parents. “Some teachers see AI as a kind of emotional support,” she noted, describing it as a digital ‘buddy’ when crafting challenging messages. Other practical uses include differentiating learning materials, generating quizzes, and creating adaptive learning experiences.
 
 However, concerns remain, particularly around assessment integrity, research skills, and the potential for “beige writing” when students overly rely on AI. One teacher used AI to generate test questions from student essays to assess understanding. Others encouraged journaling and process-based assessment models to support authentic learning.
 
