@@ -1,7 +1,7 @@
 ---
 title: "Schools Grapple with AI: CREDS Seminar Showcases Groundbreaking Research
   on Generative AI in Classrooms"
-date: 2025-03-25T22:23:00.000Z
+date: 2025-03-25T09:23:00.000Z
 draft: false
 featured: false
 image:
