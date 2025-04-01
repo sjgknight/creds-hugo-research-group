@@ -1,6 +1,6 @@
 ---
 title: Innovative Research Projects Awarded 2025 CREDS Research Sprint Funding
-date: 2025-04-01T13:42:00.000Z
+date: 2025-04-01T00:42:00.000Z
 draft: false
 featured: false
 image:
