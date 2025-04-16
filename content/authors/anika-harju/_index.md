@@ -11,6 +11,6 @@ social: []
 organizations: []
 superuser: false
 user_groups:
-  - HDR member
+  - Higher Degree Research Student
 ---
 Anika is a PhD student in the Faculty of Engineering and Information Technology. Her research focuses on supporting diverse learners using machine translation to improve accessibility and promote inclusivity with educational and assistive technologies.  The aim is to provide valuable insights into learning inequity, in particular,  language barriers, by non-native English speakers leveraging Natural Language processing tools. Anika is a dual background engineer with a former journalism career spanning over two decades.
