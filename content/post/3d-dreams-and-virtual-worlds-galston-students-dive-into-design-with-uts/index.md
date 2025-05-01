@@ -2,7 +2,7 @@
 title: "3D Dreams and Virtual Worlds: Galston Students Dive into Design with UTS"
 subtitle: "Bringing the Future to Life: UTS STEM Expert Inspires Students at
   Galston Public School"
-date: 2025-05-01T09:15:00.000Z
+date: 2025-04-30T19:15:00.000Z
 summary: ""
 draft: false
 featured: false
