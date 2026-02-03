@@ -18,7 +18,7 @@ organizations:
     url: https://profiles.uts.edu.au/Amelia.Johns/
 superuser: false
 user_groups:
-  - Associate Member
+  - Member
 ---
 Dr Amara Atif is a Lecturer (equivalent to an Assistant Professor in the American system & Junior Professor in the German system) in the School of Computer Science within the Faculty of Engineering and IT, University of Technology Sydney, Australia. She is a conscientious, ambitious and highly motivated teacher. She teaches many UG and PG subjects, including studios. At UTS, Amara has developed an undergraduate subject, “Business Intelligence,” including FEIT’s Indigenous Graduate Attribute of historically and culturally informed about Indigenous knowledge systems. She loves interacting with students with diverse backgrounds, cultures, skills and languages. She always enjoys creativity, stepping outside her comfort zone, and experimenting with her teaching methodology and educational tools. 
 
