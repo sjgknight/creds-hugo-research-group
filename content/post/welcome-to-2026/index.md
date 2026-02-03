@@ -1,7 +1,7 @@
 ---
 title: Welcome to 2026!
 subtitle: "It's going to be a big year for CREDS! "
-date: 2026-02-04T10:21:00.000+11:00
+date: 2026-02-02T10:21:00.000+11:00
 draft: false
 featured: false
 authors:
