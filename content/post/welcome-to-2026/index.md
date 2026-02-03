@@ -4,8 +4,7 @@ subtitle: "It's going to be a big year for CREDS! "
 date: 2026-01-31T10:24:00.000+11:00
 draft: false
 featured: false
-authors:
-  - Keith Heggart
+authors: []
 tags:
   - 2026 welcome
 image:
