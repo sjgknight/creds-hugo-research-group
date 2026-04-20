@@ -12,6 +12,6 @@ organizations:
     url: null
 superuser: true
 user_groups:
-  - Director
+  - Member
 ---
 Lauren researches early career teachers' design of technology-integrated learning and how this is influenced by their individual and school contexts. This research uses activity theory to analyse the design and decision-making process teachers engage in. Lauren also has a MA Education (E-Learning) from UTS and has a background in various sectors of education, including secondary school modern language teaching, TESOL and academic management.
