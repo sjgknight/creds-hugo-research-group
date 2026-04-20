@@ -18,7 +18,7 @@ organizations:
     url: https://www.uow.edu.au/arts-society-business/school-of-education/
 superuser: true
 user_groups:
-  - Director
+  - Associate member
 ---
 Dr Keith Heggart is an Associate Professor at the University of Wollongong, School of Education and former CREDS Director. He was previously a Senior Lecturer at the University of Technology Sydney School of International Studies and Education. His work focuses on learning and instructional design, educational technology and civics and citizenship education.
 
