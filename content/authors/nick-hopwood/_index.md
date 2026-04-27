@@ -9,7 +9,7 @@ social:
   - display:
       header: false
     link: http://nickhop.wordpress.com/
-    icon_pack: far
+    icon_pack: fas
     icon: home
     label: Personal website
 organizations:
