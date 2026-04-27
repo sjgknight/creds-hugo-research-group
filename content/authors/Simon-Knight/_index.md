@@ -17,8 +17,14 @@ social:
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=C4jfzBMAAAAJ
   - icon: github
-    icon_pack: fab
+    icon_pack: fas
     link: https://github.com/sjgknight
+  - display:
+      header: false
+    link: https://sjgknight.com
+    icon_pack: far
+    icon: home
+    label: Personal website
 organizations:
   - name: UTS
     url: https://profiles.uts.edu.au/simon.knight
