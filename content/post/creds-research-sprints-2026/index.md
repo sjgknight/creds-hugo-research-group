@@ -9,12 +9,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-
-
 CREDS is delighted to announce three ‘CREDS Research Sprints’ projects funded for 2026. Congratulations to all involved. We look forward to hearing about each project in the CREDS 2027 seminar series!
-
-
-
 
 **Digital Twinning to Support Transdisciplinary Learning in School Education**
 
@@ -22,17 +17,11 @@ CREDS is delighted to announce three ‘CREDS Research Sprints’ projects funde
 
 Our aim is to explore the potential of digital twinning technologies to support students' understanding of historical sites and contemporary life in and around the site.  Digital twinning technologies accurately recreate historical sites using data from archaeological excavations, contemporary artistic rendering, astronomy, geology and other sources and allow the depiction of historical sites as they were at the time they were used, but also allow the structures on the site to be mapped on to modern day 3D maps. 
 
-
-
-
 **Designing AI-Driven Machine Translation Tools for Academic Language in Multilingual Higher Education** 
 
-*Anika Harju, Camille Dickson-Deane*
+*Anika Harju, Camille Dickson-Deane, Amara Atif*
 
 The aim is to analyse the learning‑technology design barriers that sustain instruction when English is not the students' first language.  The existing   Artificial Intelligence (AI)-driven translation technologies /tools (e.g., Microsoft Bing, Google Translate, Deep Learning, and ChatGPT) that are used to convert different languages to English provide errors and misaligned meanings in discipline-specific fields. These tools use engines that translate between languages, and this project aims to address these engines. The engines are made up of programming code that can be finessed based on disciplinary knowledge, and the code is tied to tools presented in a learning management system (LMS). The project aims to train a model to make disciplinary knowledge relevant through a proof-of-concept.   
-
-
-
 
 **Preparing the Digital Teacher: A Co-Designed Professional Development Framework for AI-Driven and Emotion-Sensitive Pedagogical Tools**
 
