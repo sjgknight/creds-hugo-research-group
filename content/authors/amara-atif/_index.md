@@ -1,6 +1,6 @@
 ---
 title: Amara Atif
-role: Lecturer
+role: Senior Lecturer
 avatar_filename: avatar.jpg
 bio: "Dr Amara Atif is a Senior Lecturer in the School of Computer Science
   within the Faculty of Engineering and IT, University of Technology Sydney,
