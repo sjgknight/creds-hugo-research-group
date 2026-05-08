@@ -149,10 +149,21 @@ collections:
         name: "superuser"
         widget: "boolean"
         default: false
-      - label: "User groups (only for organization websites)"
+      - label: "Member type"
         name: "user_groups"
         required: false
-        widget: "list"
+        widget: select
+        multiple: true
+        options:
+  		  - {label: "None", value: ""}
+  		  - {label: "Member", value: "Member"} 
+  		  - {label: "Associate Member", value: "Associate Member"}
+  		  - {label: "Honorary Associate Member", value: "Honorary Associate Member"}
+  		  - {label: "Higher Degree Research Student", value: "Higher Degree Research Student"}
+  		  - {label: "Past Member", value: "Past Member"}
+  		  - {label: "Administration", value: "Administration"}
+  		  - {label: "Visitors", value: "Visitors"}
+  		  - {label: "Alumni", value: "Alumni"}
   - name: posts
     label: Posts
     label_singular: Post
