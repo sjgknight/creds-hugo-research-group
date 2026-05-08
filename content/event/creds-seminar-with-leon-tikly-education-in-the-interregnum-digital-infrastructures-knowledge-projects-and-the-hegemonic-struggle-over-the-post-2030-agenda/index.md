@@ -2,7 +2,7 @@
 title: "CREDS Seminar with Leon Tikly: Education in the Interregnum: Digital
   Infrastructures, Knowledge Projects and the Hegemonic Struggle over the
   Post-2030 Agenda"
-abstract: >
+abstract: >-
   As the 2030 deadline for the Sustainable Development Goals approaches, the
   emerging post-2030 education agenda is unfolding amid an organic crisis of
   global capitalism characterised by fiscal constraint, geopolitical
@@ -27,7 +27,10 @@ abstract: >
   conditions under which counter-hegemonic projects oriented towards these ends
   might achieve institutional durability, and asks what this implies for
   researchers working at the intersection of education and digital society.
-location: Online - Register through Humanitix (link below)
+
+
+  Register through Humanitix (click on the link below)
+location: Online - Register through Humanitix (click on the link above)
 date: 2026-05-25T17:00:00.000+10:00
 date_end: 2026-05-25T18:30:00.000+10:00
 all_day: false
