@@ -1,6 +1,6 @@
 ---
 title: Hyunmin Lee
-avatar_filename: hl.webp
+avatar_filename: avatar.jpg
 bio: Hyunmin researchers learning analytics, AI and pedagogical design
 interests:
   - learning analytics
