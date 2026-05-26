@@ -1,7 +1,7 @@
 ---
 title: "CREDS Seminar with Damian Maher: AI supported teaching and learning in
   universities and schools"
-subtitle: Register via humanitix
+subtitle: 25 Sep 10:00 AEST Register via humanitix
 date: 2026-05-12T17:38:00.000+10:00
 draft: false
 featured: false
