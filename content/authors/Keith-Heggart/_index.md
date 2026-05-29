@@ -16,7 +16,7 @@ organizations:
     url: https://profiles.uts.edu.au/keith.heggart
   - name: University of Wollongong
     url: https://www.uow.edu.au/arts-society-business/school-of-education/
-superuser: true
+superuser: false
 user_groups:
   - Associate Member
 ---
