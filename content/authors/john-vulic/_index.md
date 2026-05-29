@@ -11,7 +11,7 @@ social: []
 organizations: []
 superuser: false
 user_groups:
-  - AssociateMember
+  - Associate Member
 ---
 Dr. John Vulic is the academic lead for the Graduate Certificate in Learning Design at UTS. Over the past 15+ years, John has established an extensive career in learning design and educational management, spanning private, government, and tertiary education sectors.
 
