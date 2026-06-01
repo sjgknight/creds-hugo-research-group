@@ -10,7 +10,7 @@ social:
 organizations:
   - name: UTS
     url: null
-superuser: true
+superuser: false
 user_groups:
   - Member
 ---
