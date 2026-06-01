@@ -28,7 +28,7 @@ organizations:
   - name: UTS
     url: https://profiles.uts.edu.au/Nick.Hopwood
 email: nick@hopwood.uts.edu.au
-superuser: true
+superuser: false
 user_groups:
   - Director
 ---
