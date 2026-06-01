@@ -34,7 +34,7 @@ education:
     - course: PhD in Learning Analytics
       institution: Open University
       year: 2015
-superuser: true
+superuser: false
 user_groups:
   - Member
 highlight_name: false
