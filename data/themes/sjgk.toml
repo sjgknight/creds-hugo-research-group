@@ -5,7 +5,7 @@ name = "sjgk"
 [light]
 
   # Primary
-  primary = "#b2b2b2# #"#f8f9fa" #off-white primary
+  primary = "#f8f9fa" # b2b2b2 off-white primary or light grey
 
   # Menu
   menu_primary = "#0f4beB"  #bold blue
