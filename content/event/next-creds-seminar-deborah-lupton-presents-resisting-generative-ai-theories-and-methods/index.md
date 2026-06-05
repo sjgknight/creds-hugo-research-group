@@ -12,8 +12,8 @@ location: |-
   Online, register through humanitix (see link below)
 
   Thu 18 June 2026 | 12:00pm Sydney time
-date: 2026-06-17T22:00:00.000-04:00
-date_end: 2026-06-18T23:30:00.000-04:00
+date: 2026-06-18T12:00:00.000-04:00
+date_end: 2026-06-18T13:30:00.000-04:00
 all_day: false
 links:
   - url: https://events.humanitix.com/creds-seminar-with-deborah-lupton-resisting-generative-ai-theories-and-methods
