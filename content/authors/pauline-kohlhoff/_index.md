@@ -10,7 +10,7 @@ organizations:
     url: https://profiles.uts.edu.au/Pauline.Kohlhoff
 superuser: false
 user_groups:
-  - Member
+  - Associate Member
 ---
 Pauline Kohlhoff is a lecturer and researcher in secondary mathematics education, in the School of International Studies and Education.
 
