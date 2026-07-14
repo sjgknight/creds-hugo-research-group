@@ -9,7 +9,7 @@ organizations:
     url: https://profiles.uts.edu.au/Antonette.Shibani
 superuser: false
 user_groups:
-  - Member
+  - Associate Member
 ---
 Shibani is a Senior Lecturer at Transdisciplinary School (TD School) at UTS. She has a background in computer science engineering and teaches in the Master of Data Science and Innovation program, specialising in Natural Language Processing. She researches applied areas of data science and artificial intelligence, with a particular focus on educational technology and writing analytics. Her work spans learning analytics, automated feedback tools, generative Artificial Intelligence (AI) for teaching and learning, ethical use of AI, human-AI complementarity, navigating misinformation and conflict in social media, and more broadly, data for social impact. Much of her research uses text analysis to uncover insights from data along with other qualitative and quantitative methods.  
 
