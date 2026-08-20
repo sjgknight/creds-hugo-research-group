@@ -1,7 +1,7 @@
 ---
 title: "CREDS Seminar with Leon Furze: Teaching AI Ethics"
-subtitle: 19 August 12:00pm AEST - Register through humanitix link below
-date: 2026-05-26T09:58:00.000+10:00
+subtitle: 24 Feb 2027 12:00pm AEST - Register through humanitix link below
+date: 2026-08-21T08:52:00.000+10:00
 draft: false
 featured: false
 image:
