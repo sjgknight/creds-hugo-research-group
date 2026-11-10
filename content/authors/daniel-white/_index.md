@@ -1,6 +1,6 @@
 ---
 title: Daniel White
-avatar_filename: ""
+avatar_filename: avatar.jpg
 bio: Lecturer in Psychology
 social: []
 organizations:
