@@ -3,6 +3,9 @@ title: Daniel White
 avatar_filename: image-d39d97e9-13a1-4c13-abd7-0f01b4fb80f3-1.png
 bio: Lecturer in Psychology
 social: []
+organizations:
+  - name: UTS
+    url: https://profiles.uts.edu.au/Daniel.White
 superuser: false
 user_groups:
   - Associate Member
