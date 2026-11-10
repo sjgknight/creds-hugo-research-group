@@ -1,5 +1,6 @@
 ---
 title: Daniel White
+role: Lecture in Psychology
 avatar_filename: avatar.jpg
 bio: Lecturer in Psychology
 social: []
